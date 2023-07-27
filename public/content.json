@@ -1,0 +1,41 @@
+{
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate web developer with a keen interest in front-end technologies...",
+    "skills": [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "Git"
+    ],
+    "profileImage": "path/to/profile-image.jpg"
+  },
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "A web application that allows users to...",
+      "githubUrl": "https://github.com/your-username/project1",
+      "languageUsed": "JavaScript, React, Node.js",
+      "date": "2023-01-15",
+      "downloadLink": "",
+      "websiteLink": "https://project1.example.com"
+    },
+    {
+      "title": "Project 2",
+      "description": "An e-commerce website built using...",
+      "githubUrl": "https://github.com/your-username/project2",
+      "languageUsed": "JavaScript, React, Django",
+      "date": "2023-03-22",
+      "downloadLink": "https://project2.example.com/download",
+      "websiteLink": "https://project2.example.com"
+    }
+  ],
+  "contact": {
+    "email": "you@example.com",
+    "linkedin": "https://www.linkedin.com/in/your-profile",
+    "github": "https://github.com/your-username",
+    "handshake": "https://handshake.example.com"
+  }
+}
