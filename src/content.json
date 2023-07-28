@@ -1,0 +1,8 @@
+{
+  "about": {
+    "title": "About Me",
+    "description": "I have a profound interest in numerous types of software development such as machine learning, computer security, databases, and everything in between. I'm a huge enthusiast for desk setups, PC builds, and tattoos. In my free time, I enjoy exploring nature, getting boba, playing video games, and thrifting.",
+    "skills": ["Python", "JavaScript ES6+", "HTML & CSS", "C & C++"],
+    "profileImage": "https://www.kevintrinh.dev/assets/images/portrait.jpg"
+  }
+}
