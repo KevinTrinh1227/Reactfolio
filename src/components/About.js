@@ -2,18 +2,18 @@ import React from "react";
 import contentData from "../content.json";
 
 const About = () => {
-  const aboutContent = contentData.about;
+  const aboutContent = contentData.about_me;
 
   return (
     <div className="About">
       <h2>{aboutContent.title}</h2>
-      <p>{aboutContent.description}</p>
+      <p>{aboutContent.bio}</p>
       <ul>
         {aboutContent.skills.map((skill, index) => (
           <li key={index}>{skill}</li>
         ))}
       </ul>
-      <img src={aboutContent.profileImage} alt="Portrait" />
+      <img src={aboutContent.headShotUrl} alt="Portrait" />
     </div>
   );
 };
