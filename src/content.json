@@ -1,8 +1,30 @@
 {
-  "about": {
-    "title": "About Me",
-    "description": "I have a profound interest in numerous types of software development such as machine learning, computer security, databases, and everything in between. I'm a huge enthusiast for desk setups, PC builds, and tattoos. In my free time, I enjoy exploring nature, getting boba, playing video games, and thrifting.",
+  "general": {
+    "first_name": "Kevin",
+    "middle_name": "Huy",
+    "last_name": "Trinh",
+    "github_link": "https://github.com/KevinTrinh1227"
+  },
+  "academics": [
+    {
+      "school": "St. Mary's University",
+      "degree": "Bachelor of Science in Computer Science",
+      "start_year": 2021,
+      "end_year": 2025
+    }
+  ],
+  "about_me": {
     "skills": ["Python", "JavaScript ES6+", "HTML & CSS", "C & C++"],
-    "profileImage": "https://www.kevintrinh.dev/assets/images/portrait.jpg"
-  }
+    "headShotUrl": "https://www.kevintrinh.dev/assets/images/portrait.jpg",
+    "bio": "I have a profound interest in numerous types of software development such as machine learning, computer security, databases, and everything in between. I'm a huge enthusiast for desk setups, PC builds, and tattoos. In my free time, I enjoy exploring nature, getting boba, playing video games, and thrifting."
+  },
+  "experience": [
+    {
+      "company": "McNair STMU",
+      "title": "Research Intern",
+      "start_year": 2023,
+      "current": true,
+      "description": "As an undergraduate research intern in the McNair Program, I had the opportunity to conduct extensive research and work on a challenging project: developing a coding translator. I built a parser, lexer, and semantic analyzer module to translate my custom code into assembly language for a virtual machine. \n\nCollaborating closely with my mentors, I gained invaluable guidance, refining my development skills and deepening my understanding of language design principles, including compiler design methodologies. This experience has equipped me with practical knowledge and hands-on experience in building parsers, lexers, and semantic analyzer/code generator modules while also enhancing my proficieny in fast-paced environments and ensuring that I can deliver project deliverables on time with efficiency and accuracy."
+    }
+  ]
 }
