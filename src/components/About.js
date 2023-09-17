@@ -13,7 +13,7 @@ const About = () => {
           <li key={index}>{skill}</li>
         ))}
       </ul>
-      <img src={aboutContent.headShotUrl} alt="Portrait" />
+      <img src={aboutContent.headShotUrl} width="260px" alt="Portrait" />
     </div>
   );
 };
