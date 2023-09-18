@@ -62,7 +62,7 @@
         "description": "A description of the project.",
         "tools_used": ["Tool 1", "Tool 2", "Tool 3"],
         "github_link": "https://github.com/your-username/project-two"
-      }
+      },
       {
         "project_name": "Project Three",
         "description": "A description of the project.",
