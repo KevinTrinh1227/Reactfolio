@@ -15,7 +15,7 @@ const SideProjects = () => {
             <h3>{project.project_name}</h3>
             <p>{project.description}</p>
             <p>Tools used: {project.tools_used.join(", ")}</p>
-            <a href={project.github_link} target="_blank">GitHub link</a>
+            <a href={project.github_link} target="_blank" rel="noreferrer">GitHub link</a>
           </li>
         ))}
       </ul>
