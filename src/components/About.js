@@ -6,8 +6,8 @@ const About = () => {
 
   return (
     <div className="About">
-      <h2>{aboutContent.title}</h2>
-      <p>{aboutContent.bio}</p>
+      <h2>{aboutContent.section.title}</h2>
+      <p>{aboutContent.section.description}</p>
       <ul>
         {aboutContent.skills.map((skill, index) => (
           <li key={index}>{skill}</li>

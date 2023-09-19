@@ -6,9 +6,9 @@ const WorkExperience = () => {
 
   return (
     <div className="WorkExperience">
-      <h2>Work Experience</h2>
+      <h2>{experience.section.title}</h2>
       <ul>
-        {experience.map((item) => (
+        {experience.experience_items.map((item) => (
           <li key={item.company}>
             <h3>{item.company}</h3>
             <h4>{item.title}</h4>
