@@ -1,12 +1,8 @@
-import React, { useState, useEffect } from "react";
-import content from "../content.json";
+import React from "react";
+import contentData from "../content.json";
 
 const Education = () => {
-  const [education, setEducation] = useState(content.academics);
-
-  useEffect(() => {
-    setEducation(content.academics);
-  }, [content]);
+  const education = contentData.academics;
 
   return (
     <section id="education">

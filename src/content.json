@@ -1,207 +1,200 @@
 {
-  "general": {
-    "first_name": "Kevin",
-    "middle_name": "Huy",
-    "last_name": "Trinh",
-    "navbar_social_links": {
-      "github": "https://github.com/KevinTrinh1227",
-      "handshake": "https://app.joinhandshake.com/stu/users/32148581",
-      "linkedin": "https://www.linkedin.com/in/trinhkevin1227",
-      "email": "kevintrinh1227@gmail.com"
-    }
-  },
-  "intro_screen": {
-    "main_header": "Hello, Kevin here.",
-    "main_subtitle": "I like to build stuff occasionally.",
-    "comment_typing_string": [
-      "/* -----------",
-      "char siteAuthor[] = 'Kevin Huy Trinh'",
-      "char currentClassification[] = 'Sophomore'",
-      "char lastUpdated[] = '08/28/2023'",
-      "--------- */"
-    ],
-    "intro_bio": [
-      "I'm a Sophomore attending St. Mary's University,",
-      "Majoring in Computer Science with a Math Minor.",
-      "I have a profound interest in machine learning,",
-      "full-stack development, and everything in between."
-    ],
-    "email_button": "Say hello to me!"
-  },
-  "about_me": {
-    "section": {
-      "enable_section": true,
-      "title": "/About",
-      "description": "Brief information about me and my interests."
-    },
-    "headShotUrl": "../assets/portrait.png",
-    "bio": [
-      "Bio one",
-      "Hello Hello I love my gf"
-    ],
-    "skills_caption": "Some technologies I've worked with:",
-    "skills": ["Python", "JavaScript ES6+", "HTML & CSS", "C & C++"]
-  },
-  "academics": {
-    "section": {
-      "enable_section": true,
-      "title": "/Education",
-      "description": "Information relevant to my education at St. Mary's University."
-    },
-    "general": {
-      "school": "St. Mary's University",
-      "degree": "Bachelor of Science in Computer Science",
-      "start_year": 2021,
-      "end_year": 2025
-    },
-    "years": [
-      {
-        "year": 2021,
-        "semester": "fall",
-        "courses": [
-          {
-            "abbreviation": "CS101",
-            "name": "Introduction to Computer Science",
-            "credits": 3
-          },
-          {
-            "abbreviation": "MATH111",
-            "name": "Calculus I",
-            "credits": 4
-          },
-          {
-            "abbreviation": "ENGL101",
-            "name": "English Composition I",
-            "credits": 3
-          }
-        ]
-      },
-      {
-        "year": 2021,
-        "semester": "spring",
-        "courses": [
-          {
-            "abbreviation": "CS102",
-            "name": "Data Structures and Algorithms",
-            "credits": 3
-          },
-          {
-            "abbreviation": "MATH112",
-            "name": "Calculus II",
-            "credits": 4
-          },
-          {
-            "abbreviation": "ENGL102",
-            "name": "English Composition II",
-            "credits": 3
-          }
-        ]
-      },
-      {
-        "year": 2022,
-        "semester": "fall",
-        "courses": [
-          {
-            "abbreviation": "CS201",
-            "name": "Object-Oriented Programming",
-            "credits": 3
-          },
-          {
-            "abbreviation": "MATH221",
-            "name": "Linear Algebra",
-            "credits": 3
-          },
-          {
-            "abbreviation": "PHYS101",
-            "name": "Physics I",
-            "credits": 4
-          }
-        ]
-      },
-      {
-        "year": 2022,
-        "semester": "spring",
-        "courses": [
-          {
-            "abbreviation": "CS202",
-            "name": "Software Engineering",
-            "credits": 3
-          },
-          {
-            "abbreviation": "MATH222",
-            "name": "Differential Equations",
-            "credits": 3
-          },
-          {
-            "abbreviation": "PHYS102",
-            "name": "Physics II",
-            "credits": 4
-          }
-        ]
-      }
-    ]
-  },
-  "experience": {
-    "section": {
-      "enable_section": true,
-      "title": "/Experience",
-      "description": "Positions, team projects, organizations, and activities I am/have been a part of."
-    },
-    "experience_items": [
-      {
-      "company": "McNair STMU",
-      "title": "Research Intern",
-      "start_date": "05/2023",
-      "end_date": "08/2023",
-      "still_active": false,
-      "description": "Description over McNair Internship"
-      },
-      {
-      "company": "Job Two",
-      "title": "SWE Intern @ Company",
-      "start_date": "08/2022",
-      "end_date": "10/2022",
-      "still_active": false,
-      "description": "Some Description Here about SWE internship."
-      },
-      {
-      "company": "Job Three",
-      "title": "Junior Software Engineer @ Company",
-      "start_date": "08/2022",
-      "end_date": "10/2022",
-      "still_active": false,
-      "description": "Some Description Here about SWE position."
-      }
-    ]
-  },
-  "projects": {
-    "section": {
-      "enable_section": true,
-      "title": "Projects",
-      "description": "Some of my most recent or past favorite creations or work."
-    },
-    "project_items": [
-      {
-        "use_git_api": false,
-        "github_link": "https://github.com/your-username/project-one",
-        "project_name": "Project One",
-        "description": "A description of the project.",
-        "resources_used": ["Tool 1", "Tool 2", "Tool 3"]
-      },
-      {
-        "use_git_api": false,
-        "github_link": "https://github.com/your-username/project-one",
-        "project_name": "Project One",
-        "description": "A description of the project.",
-        "resources_used": ["Tool 1", "Tool 2", "Tool 3"]
-      },
-      {
-        "use_git_api": false,
-        "github_link": "https://github.com/your-username/project-one",
-        "project_name": "Project One",
-        "description": "A description of the project.",
-        "resources_used": ["Tool 1", "Tool 2", "Tool 3"]
-      }
-    ]
-  }
+	"general": {
+		"first_name": "Kevin",
+		"middle_name": "Huy",
+		"last_name": "Trinh",
+		"navbar_social_links": {
+			"github": "https://github.com/KevinTrinh1227",
+			"handshake": "https://app.joinhandshake.com/stu/users/32148581",
+			"linkedin": "https://www.linkedin.com/in/trinhkevin1227",
+			"email": "kevintrinh1227@gmail.com"
+		}
+	},
+	"intro_screen": {
+		"main_header": "Hello, Kevin here.",
+		"main_subtitle": "I like to build stuff occasionally.",
+		"comment_typing_string": [
+			"/* -----------",
+			"char siteAuthor[] = 'Kevin Huy Trinh'",
+			"char currentClassification[] = 'Sophomore'",
+			"char lastUpdated[] = '08/28/2023'",
+			"--------- */"
+		],
+		"intro_bio": [
+			"I'm a Sophomore attending St. Mary's University,",
+			"Majoring in Computer Science with a Math Minor.",
+			"I have a profound interest in machine learning,",
+			"full-stack development, and everything in between."
+		],
+		"email_button": "Say hello to me!"
+	},
+	"about_me": {
+		"section": {
+			"enable_section": true,
+			"title": "/About",
+			"description": "Brief information about me and my interests."
+		},
+		"headShotUrl": "../assets/portrait.png",
+		"bio": [
+			"Bio one",
+			"Hello Hello I love my gf"
+		],
+		"skills_caption": "Some technologies I've worked with:",
+		"skills": ["Python", "JavaScript ES6+", "HTML & CSS", "C & C++"]
+	},
+	"academics": {
+		"section": {
+			"enable_section": true,
+			"title": "/Education",
+			"description": "Information relevant to my education at St. Mary's University."
+		},
+		"general": {
+			"school": "St. Mary's University",
+			"degree": "Bachelor of Science in Computer Science",
+			"start_year": 2021,
+			"end_year": 2025
+		},
+		"years": [{
+				"year": 2021,
+				"semester": "fall",
+				"courses": [{
+						"abbreviation": "CS101",
+						"name": "Introduction to Computer Science",
+						"credits": 3
+					},
+					{
+						"abbreviation": "MATH111",
+						"name": "Calculus I",
+						"credits": 4
+					},
+					{
+						"abbreviation": "ENGL101",
+						"name": "English Composition I",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2021,
+				"semester": "spring",
+				"courses": [{
+						"abbreviation": "CS102",
+						"name": "Data Structures and Algorithms",
+						"credits": 3
+					},
+					{
+						"abbreviation": "MATH112",
+						"name": "Calculus II",
+						"credits": 4
+					},
+					{
+						"abbreviation": "ENGL102",
+						"name": "English Composition II",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2022,
+				"semester": "fall",
+				"courses": [{
+						"abbreviation": "CS201",
+						"name": "Object-Oriented Programming",
+						"credits": 3
+					},
+					{
+						"abbreviation": "MATH221",
+						"name": "Linear Algebra",
+						"credits": 3
+					},
+					{
+						"abbreviation": "PHYS101",
+						"name": "Physics I",
+						"credits": 4
+					}
+				]
+			},
+			{
+				"year": 2022,
+				"semester": "spring",
+				"courses": [{
+						"abbreviation": "CS202",
+						"name": "Software Engineering",
+						"credits": 3
+					},
+					{
+						"abbreviation": "MATH222",
+						"name": "Differential Equations",
+						"credits": 3
+					},
+					{
+						"abbreviation": "PHYS102",
+						"name": "Physics II",
+						"credits": 4
+					}
+				]
+			}
+		]
+	},
+	"experience": {
+		"section": {
+			"enable_section": true,
+			"title": "/Experience",
+			"description": "Positions, team projects, organizations, and activities I am/have been a part of."
+		},
+		"experience_items": [{
+				"company": "McNair STMU",
+				"title": "Research Intern",
+				"start_date": "05/2023",
+				"end_date": "08/2023",
+				"still_active": false,
+				"description": "Description over McNair Internship"
+			},
+			{
+				"company": "Job Two",
+				"title": "SWE Intern @ Company",
+				"start_date": "08/2022",
+				"end_date": "10/2022",
+				"still_active": false,
+				"description": "Some Description Here about SWE internship."
+			},
+			{
+				"company": "Job Three",
+				"title": "Junior Software Engineer @ Company",
+				"start_date": "08/2022",
+				"end_date": "10/2022",
+				"still_active": false,
+				"description": "Some Description Here about SWE position."
+			}
+		]
+	},
+	"projects": {
+		"section": {
+			"enable_section": true,
+			"title": "Projects",
+			"description": "Some of my most recent or past favorite creations or work."
+		},
+		"project_items": [{
+				"use_git_api": false,
+				"github_link": "https://github.com/your-username/project-one",
+				"project_name": "Project One",
+				"description": "A description of the project.",
+				"resources_used": ["Tool 1", "Tool 2", "Tool 3"]
+			},
+			{
+				"use_git_api": false,
+				"github_link": "https://github.com/your-username/project-one",
+				"project_name": "Project One",
+				"description": "A description of the project.",
+				"resources_used": ["Tool 1", "Tool 2", "Tool 3"]
+			},
+			{
+				"use_git_api": false,
+				"github_link": "https://github.com/your-username/project-one",
+				"project_name": "Project One",
+				"description": "A description of the project.",
+				"resources_used": ["Tool 1", "Tool 2", "Tool 3"]
+			}
+		]
+	}
 }
