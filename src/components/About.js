@@ -1,21 +1,61 @@
 import React from "react";
-import contentData from "../content.json";
+import aboutMeJson from "../content.json";
 
-const About = () => {
-  const aboutContent = contentData.about_me;
+const AboutMe = () => {
+  const aboutMe = aboutMeJson.about_me;
 
   return (
-    <div className="About">
-      <h2>{aboutContent.section.title}</h2>
-      <p>{aboutContent.section.description}</p>
-      <ul>
-        {aboutContent.skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul>
-      <img src={aboutContent.headShotUrl} width="260px" alt="Portrait" />
-    </div>
+    <section>
+      <div className="container">
+        <div className="reveal">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="title-box">
+                <h3 className="title-a" id="aboutme">
+                  {aboutMe.section.title} <div className="line-mf"></div>
+                </h3>
+                <p className="subtitle-a">
+                  {aboutMe.section.description}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="box-shadow-full">
+                <div className="row">
+                  <div className="col-md-6">
+                    <p className="about-me-desc">
+                      {aboutMe.bio.join("<br>")}
+                    </p>
+                    <p className="about-me-desc">
+                      {aboutMe.skills_caption}
+                    </p>
+                    <div className="languages-list">
+                      <ul>
+                        {aboutMe.skills.map((skill, index) => (
+                          <li key={index}>{skill}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <a href={aboutMe.headShotUrl} target="_blank" rel="noreferrer" className="col-6-img-a">
+                      <img
+                        src={aboutMe.headShotUrl}
+                        alt=""
+                        className="myportrait"
+                      ></img>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default About;
+export default AboutMe;

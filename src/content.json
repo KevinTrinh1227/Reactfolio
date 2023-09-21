@@ -36,11 +36,11 @@
 		},
 		"headShotUrl": "../assets/portrait.png",
 		"bio": [
-			"Bio one",
-			"Hello Hello I love my gf"
+			"I am currently studying computer science at St. Mary's University with a focus on computer science with a minor in mathematics. Recently, I was an undergrad research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals are to build experience and to acquire long-term connections that will benefit me as a person and my field of study.",
+			"I have a profound interest in numerous types of software development such as machine learning, computer security, databases, and everything in between. I'm a huge enthusiast for desk setups, PC builds, and tattoos. In my free time, I enjoy exploring nature, getting boba, playing video games, and thrifting."
 		],
 		"skills_caption": "Some technologies I've worked with:",
-		"skills": ["Python", "JavaScript ES6+", "HTML & CSS", "C & C++"]
+		"skills": ["Python", "JavaScript ES6+", "HTML & CSS", "React & Node.js"]
 	},
 	"academics": {
 		"section": {
