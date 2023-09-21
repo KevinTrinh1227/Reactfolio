@@ -138,63 +138,113 @@
 	},
 	"experience": {
 		"section": {
-			"enable_section": true,
-			"title": "/Experience",
-			"description": "Positions, team projects, organizations, and activities I am/have been a part of."
+		  "enable_section": true,
+		  "title": "/Experience",
+		  "description": "Positions, team projects, organizations, and activities I am/have been a part of."
 		},
-		"experience_items": [{
-				"company": "McNair STMU",
-				"title": "Research Intern",
-				"start_date": "05/2023",
-				"end_date": "08/2023",
-				"still_active": false,
-				"description": "Description over McNair Internship"
-			},
-			{
-				"company": "Job Two",
-				"title": "SWE Intern @ Company",
-				"start_date": "08/2022",
-				"end_date": "10/2022",
-				"still_active": false,
-				"description": "Some Description Here about SWE internship."
-			},
-			{
-				"company": "Job Three",
-				"title": "Junior Software Engineer @ Company",
-				"start_date": "08/2022",
-				"end_date": "10/2022",
-				"still_active": false,
-				"description": "Some Description Here about SWE position."
-			}
+		"experience_items": [
+		  {
+			"organization": "McNair STMU",
+			"title": "Research Intern",
+			"start_date": "05/2023",
+			"end_date": "07/2023",
+			"description": [
+			  "Description paragraph one",
+			  "Description paragraph two"
+			]
+		  },
+		  {
+			"organization": "Job Two",
+			"title": "SWE Intern @ Company",
+			"start_date": "08/2022",
+			"end_date": "10/2022",
+			"description": [
+			  "Description paragraph one",
+			  "Description paragraph two"
+			]
+		  },
+		  {
+			"organization": "Job Three",
+			"title": "Junior Software Engineer @ Company",
+			"start_date": "08/2022",
+			"end_date": "10/2022",
+			"description": [
+			  "Description paragraph one",
+			  "Description paragraph two"
+			]
+		  },
+		  {
+			"organization": "Job Four",
+			"title": "Junior Software Engineer @ Company",
+			"start_date": "08/2022",
+			"end_date": "10/2022",
+			"description": [
+			  "Description paragraph one",
+			  "Description paragraph two"
+			]
+		  }
 		]
 	},
 	"projects": {
 		"section": {
-			"enable_section": true,
-			"title": "Projects",
-			"description": "Some of my most recent or past favorite creations or work."
+		  "enable_section": true,
+		  "title": "Projects",
+		  "description": "Some of my most recent or past favorite creations or work."
 		},
-		"project_items": [{
-				"use_git_api": false,
-				"github_link": "https://github.com/your-username/project-one",
-				"project_name": "Project One",
-				"description": "A description of the project.",
-				"resources_used": ["Tool 1", "Tool 2", "Tool 3"]
-			},
-			{
-				"use_git_api": false,
-				"github_link": "https://github.com/your-username/project-one",
-				"project_name": "Project One",
-				"description": "A description of the project.",
-				"resources_used": ["Tool 1", "Tool 2", "Tool 3"]
-			},
-			{
-				"use_git_api": false,
-				"github_link": "https://github.com/your-username/project-one",
-				"project_name": "Project One",
-				"description": "A description of the project.",
-				"resources_used": ["Tool 1", "Tool 2", "Tool 3"]
-			}
+		"project_items": [
+		  {
+			"use_git_api": false,
+			"github_link": "https://github.com/your-username/project-one",
+			"project_name": "Project One",
+			"description": "A description of the project.",
+			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
+			"start_date": "Dec 2022",
+			"end_date": "Jan 2023",
+			"links": [
+			  {
+				"href": "https://example.com/project-one",
+				"icon": "fa-solid fa-link",
+				"data_tooltip": "Visit Project Website"
+			  }
+			]
+		  },
+		  {
+			"use_git_api": false,
+			"github_link": "https://github.com/your-username/project-two",
+			"project_name": "Project Two",
+			"description": "A description of the project.",
+			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
+			"start_date": "Dec 2022",
+			"end_date": "Jan 2023",
+			"links": [
+			  {
+				"href": "https://example.com/project-two",
+				"icon": "fa-solid fa-link",
+				"data_tooltip": "Visit Project Website"
+			  },
+			  {
+				"href": "https://linktwo.com",
+				"icon": "fa-solid fa-book",
+				"data_tooltip": "Visit Docs Page"
+			  }
+			]
+		  },
+		  {
+			"use_git_api": false,
+			"github_link": "https://github.com/your-username/project-three",
+			"project_name": "Project Three",
+			"description": "A description of the project.",
+			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
+			"start_date": "Dec 2022",
+			"end_date": "Jan 2023",
+			"links": [
+			  {
+				"href": "https://example.com/project-three",
+				"icon": "fa-solid fa-link",
+				"data_tooltip": "Visit Project Website"
+			  }
+			]
+		  }
 		]
 	}
 }

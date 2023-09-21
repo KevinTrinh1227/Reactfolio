@@ -2,7 +2,9 @@ import React from "react";
 import contentData from "../content.json";
 
 const WorkExperience = () => {
-  const experience = contentData.experience;
+  const { experience } = contentData;
+
+  const experienceItems = experience.experience_items;
 
   return (
     <div className="container">
@@ -14,7 +16,7 @@ const WorkExperience = () => {
                 {experience.section.title} <div className="line-mf"></div>
               </h3>
               <p className="subtitle-a">
-              {experience.section.description}
+                {experience.section.description}
               </p>
             </div>
           </div>
@@ -22,10 +24,10 @@ const WorkExperience = () => {
         <div className="container">
           <div className="wrapper">
             <ul className="indicator">
-              {experience.experience_items.map((item, index) => (
+              {experienceItems.map((item, index) => (
                 <li
                   key={index}
-                  className={index === 0 ? "active" : ""}
+                  className=""
                   data-target={`#item${index + 1}`}
                 >
                   {item.organization}
@@ -33,8 +35,16 @@ const WorkExperience = () => {
               ))}
             </ul>
             <ul className="content">
-              {experience.experience_items.map((item, index) => (
-                <li key={index} id={`item${index + 1}`} className={index === 0 ? "active" : ""}>
+              <li key={0} id={`item1`} className="active">
+                <h1>
+                  {experienceItems[0].title} @ {experienceItems[0].organization} - {experienceItems[0].start_date} to {experienceItems[0].end_date}
+                </h1>
+                {experienceItems[0].description.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </li>
+              {experienceItems.slice(1).map((item, index) => (
+                <li key={index + 1} id={`item${index + 2}`}>
                   <h1>
                     {item.title} @ {item.organization} - {item.start_date} to {item.end_date}
                   </h1>
