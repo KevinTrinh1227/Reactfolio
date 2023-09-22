@@ -11,7 +11,7 @@ const Intro = () => {
   });
 
   return (
-    <div class="container" key="intro-container">
+    <div class="container">
       <div class="row">
         <div class="col-md-6">
           <section class="intro_section">
@@ -19,6 +19,7 @@ const Intro = () => {
             <p><strong>{introContent.main_subtitle}</strong></p>
 
             <div class="introParagraph">
+              <p></p>
               {introBio}
             </div>
 

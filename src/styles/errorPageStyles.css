@@ -1,0 +1,50 @@
+body, h1, h2, h3, h4, p, a {
+    color: #B95;
+    font-family: Courier, monospace;
+    font-smoothing: antialiased;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  }
+  
+  body {
+    background: #17202A;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+    max-width: 640px;
+    text-align: center;
+  }
+  
+  .bsod {
+    padding-top: 10%;
+  }
+  
+  .bsod .neg {
+    text-align: center;
+    color: #ECF0F1;
+  }
+  
+  .bsod .neg .bg {
+    background: #B95;
+    padding: 0 15px 2px 13px;
+  }
+  
+  .bsod .title {
+    margin-bottom: 50px;
+  }
+  
+  .bsod .nav {
+    margin-top: 35px;
+    text-align: center;
+  }
+  
+  .bsod .nav .link {
+    text-decoration: none;
+    padding: 0 9px 2px 8px;
+  }
+  
+  .bsod .nav .link:hover, .bsod .nav .link:focus {
+    color: #ECF0F1;
+    transition: all 0.5s ease-in-out;
+  }

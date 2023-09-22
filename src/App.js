@@ -4,6 +4,7 @@ import About from "./components/About";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
 import SideProjects from "./components/SideProjects";
+import "./styles/style.css";
 
 function App() {
   return (

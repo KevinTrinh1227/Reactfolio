@@ -17,7 +17,7 @@
 			"/* -----------",
 			"char siteAuthor[] = 'Kevin Huy Trinh'",
 			"char currentClassification[] = 'Sophomore'",
-			"char lastUpdated[] = '08/28/2023'",
+			"char lastUpdated[] = '08/29/2023'",
 			"--------- */"
 		],
 		"intro_bio": [
@@ -31,7 +31,7 @@
 	"about_me": {
 		"section": {
 			"enable_section": true,
-			"title": "/About",
+			"title": "~/About",
 			"description": "Brief information about me and my interests."
 		},
 		"headShotUrl": "../assets/portrait.png",
@@ -45,7 +45,7 @@
 	"academics": {
 		"section": {
 			"enable_section": true,
-			"title": "/Education",
+			"title": "~/Education",
 			"description": "Information relevant to my education at St. Mary's University."
 		},
 		"general": {
@@ -56,82 +56,124 @@
 		},
 		"years": [{
 				"year": 2021,
-				"semester": "fall",
+				"semester": "Fall",
 				"courses": [{
-						"abbreviation": "CS101",
-						"name": "Introduction to Computer Science",
+						"abbreviation": "CS 1310",
+						"name": "C Programming I",
 						"credits": 3
 					},
 					{
-						"abbreviation": "MATH111",
+						"abbreviation": "MT 1411",
+						"name": "Pre Calculus",
+						"credits": 4
+					},
+					{
+						"abbreviation": "EN 1311",
+						"name": "Rhetoric and Composition",
+						"credits": 3
+					},
+					{
+						"abbreviation": "PL 1301",
+						"name": "Introduction to Philosophy",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2022,
+				"semester": "Spring",
+				"courses": [{
+						"abbreviation": "CS102",
+						"name": "C Programming II",
+						"credits": 3
+					},
+					{
+						"abbreviation": "CS 3300",
+						"name": "Intro to Data Analytics Python Programming I",
+						"credits": 4
+					},
+					{
+						"abbreviation": "MT 2412",
 						"name": "Calculus I",
 						"credits": 4
 					},
 					{
-						"abbreviation": "ENGL101",
-						"name": "English Composition I",
-						"credits": 3
-					}
-				]
-			},
-			{
-				"year": 2021,
-				"semester": "spring",
-				"courses": [{
-						"abbreviation": "CS102",
-						"name": "Data Structures and Algorithms",
-						"credits": 3
-					},
-					{
-						"abbreviation": "MATH112",
-						"name": "Calculus II",
+						"abbreviation": "FYE 1301",
+						"name": "First Year Seminar",
 						"credits": 4
 					},
 					{
-						"abbreviation": "ENGL102",
-						"name": "English Composition II",
+						"abbreviation": "MT 2412",
+						"name": "Multicultural American Lit",
 						"credits": 3
 					}
 				]
 			},
 			{
 				"year": 2022,
-				"semester": "fall",
-				"courses": [{
-						"abbreviation": "CS201",
-						"name": "Object-Oriented Programming",
-						"credits": 3
-					},
-					{
-						"abbreviation": "MATH221",
-						"name": "Linear Algebra",
-						"credits": 3
-					},
-					{
-						"abbreviation": "PHYS101",
-						"name": "Physics I",
-						"credits": 4
-					}
+				"semester": "Fall",
+				"courses": [
+				  {
+					"abbreviation": "CS 2315",
+					"name": "Algorithms and Data Structure",
+					"credits": 3.0
+				  },
+				  {
+					"abbreviation": "CS 2313",
+					"name": "Object Oriented Programming I",
+					"credits": 3.0
+				  },
+				  {
+					"abbreviation": "CS 2110",
+					"name": "Sophomore CS Seminar",
+					"credits": 1.0
+				  },
+				  {
+					"abbreviation": "CM 1341",
+					"name": "Intro to Human Communication",
+					"credits": 3.0
+				  },
+				  {
+					"abbreviation": "AR 1300",
+					"name": "Concepts in Visual Arts",
+					"credits": 3.0
+				  }
 				]
-			},
-			{
-				"year": 2022,
-				"semester": "spring",
-				"courses": [{
-						"abbreviation": "CS202",
-						"name": "Software Engineering",
-						"credits": 3
-					},
-					{
-						"abbreviation": "MATH222",
-						"name": "Differential Equations",
-						"credits": 3
-					},
-					{
-						"abbreviation": "PHYS102",
-						"name": "Physics II",
-						"credits": 4
-					}
+			  },
+			  {
+				"year": 2023,
+				"semester": "Spring",
+				"courses": [
+				  {
+					"abbreviation": "CS 2350",
+					"name": "Computer Architecture",
+					"credits": 3.0
+				  },
+				  {
+					"abbreviation": "CS 2323",
+					"name": "Object Oritented Programming II",
+					"credits": 3.0
+				  },
+				  {
+					"abbreviation": "CS 4375",
+					"name": "Advanced Topics (Python Data Analytics)",
+					"credits": 3.0
+				  },
+				  {
+					"abbreviation": "MT 2323",
+					"name": "Discrete Math Structures",
+					"credits": 3.0
+				  },
+				  {
+					"abbreviation": "TH 1301",
+					"name": "Introduction to Thelogy",
+					"credits": 3.0
+				  },
+				  {
+					"abbreviation": "AC 2301",
+					"name": "Financial Accounting",
+					"credits": 3.0
+				  }
 				]
 			}
 		]
@@ -139,7 +181,7 @@
 	"experience": {
 		"section": {
 		  "enable_section": true,
-		  "title": "/Experience",
+		  "title": "~/Experience",
 		  "description": "Positions, team projects, organizations, and activities I am/have been a part of."
 		},
 		"experience_items": [
@@ -188,7 +230,7 @@
 	"projects": {
 		"section": {
 		  "enable_section": true,
-		  "title": "Projects",
+		  "title": "~/Projects",
 		  "description": "Some of my most recent or past favorite creations or work."
 		},
 		"project_items": [
@@ -196,7 +238,7 @@
 			"use_git_api": false,
 			"github_link": "https://github.com/your-username/project-one",
 			"project_name": "Project One",
-			"description": "A description of the project.",
+			"description": "A description of the project. Something something something does this and that.",
 			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
 			"start_date": "Dec 2022",
 			"end_date": "Jan 2023",
@@ -212,7 +254,70 @@
 			"use_git_api": false,
 			"github_link": "https://github.com/your-username/project-two",
 			"project_name": "Project Two",
-			"description": "A description of the project.",
+			"description": "A description of the project. Something something something does this and that.",
+			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
+			"start_date": "Dec 2022",
+			"end_date": "Jan 2023",
+			"links": [
+			  {
+				"href": "https://example.com/project-two",
+				"icon": "fa-solid fa-link",
+				"data_tooltip": "Visit Project Website"
+			  },
+			  {
+				"href": "https://linktwo.com",
+				"icon": "fa-solid fa-book",
+				"data_tooltip": "Visit Docs Page"
+			  }
+			]
+		  },
+		  {
+			"use_git_api": false,
+			"github_link": "https://github.com/your-username/project-two",
+			"project_name": "Project Two",
+			"description": "A description of the project. Something something something does this and that.",
+			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
+			"start_date": "Dec 2022",
+			"end_date": "Jan 2023",
+			"links": [
+			  {
+				"href": "https://example.com/project-two",
+				"icon": "fa-solid fa-link",
+				"data_tooltip": "Visit Project Website"
+			  },
+			  {
+				"href": "https://linktwo.com",
+				"icon": "fa-solid fa-book",
+				"data_tooltip": "Visit Docs Page"
+			  }
+			]
+		  },
+		  {
+			"use_git_api": false,
+			"github_link": "https://github.com/your-username/project-two",
+			"project_name": "Project Two",
+			"description": "A description of the project. Something something something does this and that.",
+			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
+			"start_date": "Dec 2022",
+			"end_date": "Jan 2023",
+			"links": [
+			  {
+				"href": "https://example.com/project-two",
+				"icon": "fa-solid fa-link",
+				"data_tooltip": "Visit Project Website"
+			  },
+			  {
+				"href": "https://linktwo.com",
+				"icon": "fa-solid fa-book",
+				"data_tooltip": "Visit Docs Page"
+			  }
+			]
+		  },
+		  {
+			"use_git_api": false,
+			"github_link": "https://github.com/your-username/project-two",
+			"project_name": "Project Two",
+			"description": "A description of the project. Something something something does this and that.",
 			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
 			"start_date": "Dec 2022",
 			"end_date": "Jan 2023",
@@ -233,7 +338,7 @@
 			"use_git_api": false,
 			"github_link": "https://github.com/your-username/project-three",
 			"project_name": "Project Three",
-			"description": "A description of the project.",
+			"description": "A description of the project. Something something something does this and that.",
 			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
 			"start_date": "Dec 2022",
 			"end_date": "Jan 2023",
@@ -246,5 +351,5 @@
 			]
 		  }
 		]
-    }
+  }
 }
