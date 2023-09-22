@@ -32,7 +32,8 @@
 		"section": {
 			"enable_section": true,
 			"title": "~/About",
-			"description": "Brief information about me and my interests."
+      "navbar_name": "/About",
+			"description": "Brief information about myself and my interests."
 		},
 		"headShotUrl": "../assets/portrait.png",
 		"bio": [
@@ -46,6 +47,7 @@
 		"section": {
 			"enable_section": true,
 			"title": "~/Education",
+      "navbar_name": "/Academics",
 			"description": "Courses that I have completed or am on track to complete. Current GPA: 3.24"
 		},
 		"general": {
@@ -182,6 +184,7 @@
 		"section": {
 		  "enable_section": true,
 		  "title": "~/Experience",
+      "navbar_name": "/Experience",
 		  "description": "Positions, team projects, or organizations I am/have been a part of."
 		},
 		"experience_items": [
@@ -231,6 +234,7 @@
 		"section": {
 		  "enable_section": true,
 		  "title": "~/Projects",
+      "navbar_name": "/Projects",
 		  "description": "Some of my most recent or past favorite creations or work."
 		},
 		"project_items": [

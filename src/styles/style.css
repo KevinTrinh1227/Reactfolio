@@ -898,25 +898,24 @@ li {
 
 
 /*--------------------------------------------------------------
-# navlist Section
+# navlist AND link bar Section
 --------------------------------------------------------------*/
 
-.navlist {
+.navlist, .linkbar {
   display: none;
 }
 
 .navlist ul li a {
-  color: var(--accent-color);
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  color: var(--slate);
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .navlist ul li a:hover {
   color: #ECF0F1;
   text-decoration: none;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
@@ -929,7 +928,8 @@ li {
     position: fixed;
     right: 0;
     bottom: 0;
-    padding: 5.5rem;
+    padding-right: 8.5rem;
+    padding-bottom: 8rem;
     text-align: right;
   }
 
@@ -944,6 +944,46 @@ li {
 
   .navlist li a {
     padding: 0.5rem;
+  }
+
+  .linkbar {display: block;}
+
+  .linkbar {
+    position: fixed;
+    right: 9rem;
+    top: 12rem;
+    padding: 10px;
+    width: 50px;
+    z-index: 1;
+  }
+  
+  .linkbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .linkbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  
+  .linkbar nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .linkbar a {
+    color: var(--slate);
+    font-size: 1.3rem;
+    padding: 0 10px;
+  }
+  
+  .linkbar a:hover {
+    color: var(--white);
+    transition: all 0.3s ease-in-out;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
   }
 
 }
