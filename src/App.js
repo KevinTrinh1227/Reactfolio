@@ -5,16 +5,17 @@ import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
 import SideProjects from "./components/SideProjects";
 import "./styles/style.css";
+// import GlobalStyle from "./styles/style";
 
 function App() {
   return (
-    <div className="App">
-      <Intro />
-      <About />
-      <Education />
-      <WorkExperience />
-      <SideProjects />
-    </div>
+      <div className="App">
+        <Intro />
+        <About />
+        <Education />
+        <WorkExperience />
+        <SideProjects />
+      </div>
   );
 }
 
