@@ -1,14 +1,17 @@
 :root {
-  --primary-color: #0a192f;
-  --secondary-color: #112240;
+  --dark-navy: #0a192f;
+  --navy: #112240;
   --accent-color: #64ffda;
-  --main-text: #e6f1ff;
-  --other-text: #ccd6f6;
+  --accent-color-two: #64ffda;
+  --white: #e6f1ff;
+  --bone-white: #ccd6f6;
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
 }
 
 body {
-  background: var(--primary-color);
-  color: var(--main-text);
+  background: var(--dark-navy);
+  color: var(--white);
 }
 
 .p-r {
@@ -114,9 +117,9 @@ a {
 .subtitle-a {
   text-decoration: none;
   text-align: left;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   float: left;
   color: var(--accent-color);
+  font-size: 1rem;
 }
 
 .line-mf {
@@ -127,10 +130,10 @@ a {
   .line-mf {
     display: inline;
     width: 20rem;
-    height: 1.5px;
+    height: 1px;
     float: right;
-    background-color: #4f4228;
-    margin-top: 1.8rem;
+    background-color: var(--slate);
+    margin-top: 1.5rem;
     margin-left: 1rem;
   }
 }
@@ -142,8 +145,8 @@ a {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: var(--secondary-color);
-  border-radius: 20px;
+  background-color: var(--navy);
+  border-radius:8px;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -175,7 +178,7 @@ a {
 
 .myportrait {
   height: 375px;
-  border-radius: 15px;
+  border-radius: 8px;
   box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
 -webkit-box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
 -moz-box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
@@ -486,7 +489,7 @@ a {
 
 .intro_section {
   padding-top: 1rem;
-  background: var(--primary-color);
+  background: var(--dark-navy);
   color: #F5F5F5;
   line-height: 1.4;
   font-family: Courier, monospace;
@@ -564,9 +567,9 @@ a {
 --------------------------------------------------------------*/
 
 .card-recentprojects{
-  background: var(--secondary-color);
+  background: var(--navy);
   color: #D5D8DC;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .post-date a {
@@ -597,7 +600,7 @@ p, a {
 @media (min-width: 767px) {
   .card-recentprojects {
     margin-bottom: 3rem;
-    background: var(--secondary-color);
+    background: var(--navy);
     color: #D5D8DC;
   }
 }
@@ -671,7 +674,7 @@ p, a {
   margin: 1rem 0;
 }
 .recentprojects-wrapper .post-meta ul {
-  border-left: 4px solid var(--secondary-color);
+  border-left: 4px solid var(--navy);
   margin-top: 1rem;
 }
 .recentprojects-wrapper .post-meta ul li {
@@ -679,13 +682,13 @@ p, a {
   margin-left: 15px;
 }
 .recentprojects-wrapper .post-meta ul a {
-  color: var(--secondary-color);
+  color: var(--navy);
 }
 .recentprojects-wrapper .post-meta ul span {
   color: #1e1e1e;
 }
 .recentprojects-wrapper .blockquote {
-  border-left: 4px solid var(--secondary-color);
+  border-left: 4px solid var(--navy);
   padding: 18px;
   font-style: italic;
 }
@@ -697,8 +700,8 @@ p, a {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: var(--secondary-color);
-  border-radius: 20px;
+  background-color: var(--navy);
+  border-radius: 8px;
 }
 .work-box:hover img {
   transform: scale(1.3);
@@ -707,7 +710,7 @@ p, a {
 .work-img {
   display: block;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 .work-img img {
   transition: all 1s;
@@ -747,10 +750,10 @@ p, a {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--navy);
 }
 .certifications-details .certifications-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--secondary-color);
+  background-color: var(--navy);
 }
 .certifications-details .certifications-info {
   padding: 30px;
@@ -798,8 +801,8 @@ li {
 
 .wrapper {
 	display: flex;
-  background: var(--secondary-color);
-  border-radius: 20px;
+  background: var(--navy);
+  border-radius: 8px;
 }
 .indicator {
 	padding: 2.5rem 0;

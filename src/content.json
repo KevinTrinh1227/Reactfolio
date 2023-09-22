@@ -60,22 +60,22 @@
 				"courses": [{
 						"abbreviation": "CS 1310",
 						"name": "C Programming I",
-						"credits": 3
+						"credits": 3.0
 					},
 					{
 						"abbreviation": "MT 1411",
 						"name": "Pre Calculus",
-						"credits": 4
+						"credits": 4.0
 					},
 					{
 						"abbreviation": "EN 1311",
 						"name": "Rhetoric and Composition",
-						"credits": 3
+						"credits": 3.0
 					},
 					{
 						"abbreviation": "PL 1301",
 						"name": "Introduction to Philosophy",
-						"credits": 3
+						"credits": 3.0
 					}
 				]
 			},
@@ -85,27 +85,27 @@
 				"courses": [{
 						"abbreviation": "CS102",
 						"name": "C Programming II",
-						"credits": 3
+						"credits": 3.0
 					},
 					{
 						"abbreviation": "CS 3300",
 						"name": "Intro to Data Analytics Python Programming I",
-						"credits": 4
+						"credits": 3.0
 					},
 					{
 						"abbreviation": "MT 2412",
 						"name": "Calculus I",
-						"credits": 4
+						"credits": 4.0
 					},
 					{
 						"abbreviation": "FYE 1301",
 						"name": "First Year Seminar",
-						"credits": 4
+						"credits": 3.0
 					},
 					{
 						"abbreviation": "MT 2412",
 						"name": "Multicultural American Lit",
-						"credits": 3
+						"credits": 3.0
 					}
 				]
 			},
@@ -182,7 +182,7 @@
 		"section": {
 		  "enable_section": true,
 		  "title": "~/Experience",
-		  "description": "Positions, team projects, organizations, and activities I am/have been a part of."
+		  "description": "Positions, team projects, or organizations I am/have been a part of."
 		},
 		"experience_items": [
 		  {

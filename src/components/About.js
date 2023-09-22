@@ -25,9 +25,9 @@ const AboutMe = () => {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="col-md-6">
-                    <p className="about-me-desc">
-                      {aboutMe.bio.join("<br>")}
-                    </p>
+                    {aboutMe.bio.map((paragraph, index) => (
+                      <p class="about-me-desc" key={index}>{paragraph}</p>
+                    ))}
                     <p className="about-me-desc">
                       {aboutMe.skills_caption}
                     </p>

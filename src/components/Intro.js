@@ -13,12 +13,13 @@ const Intro = () => {
   return (
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div className="col-sm-12">
           <section class="intro_section">
             <h1>{introContent.main_header}</h1>
             <p><strong>{introContent.main_subtitle}</strong></p>
 
             <div class="introParagraph">
+              <h4>‎</h4>
               <p></p>
               {introBio}
             </div>

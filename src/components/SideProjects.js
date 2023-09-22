@@ -22,40 +22,42 @@ const SideProjects = () => {
             </div>
           </div>
 
+        <div className="col-sm-12">
           <div className="row">
-          {projects.project_items.map((project, index) => (
-              <div className="col-md-4" key={index}>
-                <div className="card card-recentprojects">
-                  <div className="card-body">
-                    <div className="card-category-box"></div>
-                    <h3 className="card-title">{project.project_name}</h3>
-                    <p className="card-description">{project.description}</p>
-                    <br />
-                    <p>{project.resources_used.join(", ")}</p>
-                  </div>
-                  <div className="card-footer">
-                    <div className="post-author">
-                      <span className="author">
-                        {project.start_date} - {project.end_date}
-                      </span>
+            {projects.project_items.map((project, index) => (
+                <div className="col-md-4" key={index}>
+                  <div className="card card-recentprojects">
+                    <div className="card-body">
+                      <div className="card-category-box"></div>
+                      <h3 className="card-title">{project.project_name}</h3>
+                      <p className="card-description">{project.description}</p>
+                      <br />
+                      <p>{project.resources_used.join(", ")}</p>
                     </div>
-                    <div className="post-date">
-                      {project.links.map((link, index) => (
-                        <a
-                          key={index}
-                          href={link.href}
-                          target="_blank"
-                          rel="noreferrer"
-                          data-tooltip={link.data_tooltip}
-                        >
-                          <i className={link.icon}></i>
-                        </a>
-                      ))}
+                    <div className="card-footer">
+                      <div className="post-author">
+                        <span className="author">
+                          {project.start_date} - {project.end_date}
+                        </span>
+                      </div>
+                      <div className="post-date">
+                        {project.links.map((link, index) => (
+                          <a
+                            key={index}
+                            href={link.href}
+                            target="_blank"
+                            rel="noreferrer"
+                            data-tooltip={link.data_tooltip}
+                          >
+                            <i className={link.icon}></i>
+                          </a>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>

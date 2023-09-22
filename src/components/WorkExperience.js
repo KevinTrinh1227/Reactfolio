@@ -13,7 +13,8 @@ const WorkExperience = () => {
           <div className="col-sm-12">
             <div className="title-box text-center">
               <h3 className="title-a" id="experience">
-                {experience.section.title} <div className="line-mf"></div>
+                {experience.section.title}
+                <div className="line-mf"></div>
               </h3>
               <p className="subtitle-a">
                 {experience.section.description}
@@ -21,39 +22,42 @@ const WorkExperience = () => {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="wrapper">
-            <ul className="indicator">
-              {experienceItems.map((item, index) => (
-                <li
-                  key={index}
-                  className=""
-                  data-target={`#item${index + 1}`}
-                >
-                  {item.organization}
-                </li>
-              ))}
-            </ul>
-            <ul className="content">
-              <li key={0} id={`item1`} className="active">
-                <h1>
-                  {experienceItems[0].title} @ {experienceItems[0].organization} - {experienceItems[0].start_date} to {experienceItems[0].end_date}
-                </h1>
-                {experienceItems[0].description.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
+        
+        <div className="col-sm-12">
+          <div className="container">
+            <div className="wrapper">
+              <ul className="indicator">
+                {experienceItems.map((item, index) => (
+                  <li
+                    key={index}
+                    className=""
+                    data-target={`#item${index + 1}`}
+                  >
+                    {item.organization}
+                  </li>
                 ))}
-              </li>
-              {experienceItems.slice(1).map((item, index) => (
-                <li key={index + 1} id={`item${index + 2}`}>
+              </ul>
+              <ul className="content">
+                <li key={0} id={`item1`} className="active">
                   <h1>
-                    {item.title} @ {item.organization} - {item.start_date} to {item.end_date}
+                    {experienceItems[0].title} @ {experienceItems[0].organization} - {experienceItems[0].start_date} to {experienceItems[0].end_date}
                   </h1>
-                  {item.description.map((paragraph, index) => (
+                  {experienceItems[0].description.map((paragraph, index) => (
                     <p key={index}>{paragraph}</p>
                   ))}
                 </li>
-              ))}
-            </ul>
+                {experienceItems.slice(1).map((item, index) => (
+                  <li key={index + 1} id={`item${index + 2}`}>
+                    <h1>
+                      {item.title} @ {item.organization} - {item.start_date} to {item.end_date}
+                    </h1>
+                    {item.description.map((paragraph, index) => (
+                      <p key={index}>{paragraph}</p>
+                    ))}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
