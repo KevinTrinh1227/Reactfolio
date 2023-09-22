@@ -1,8 +1,11 @@
 import React from "react";
-import aboutMeJson from "../content.json";
+import aboutMeJson from "../../content.json";
 
 const AboutMe = () => {
   const aboutMe = aboutMeJson.about_me;
+
+  const firstHalf = aboutMe.skills.slice(0, aboutMe.skills.length / 2);
+  const secondHalf = aboutMe.skills.slice(aboutMe.skills.length / 2);
 
   return (
     <section>
@@ -22,7 +25,7 @@ const AboutMe = () => {
           </div>
           <div className="row">
             <div className="col-sm-12">
-              <div className="box-shadow-full">
+
                 <div className="row">
                   <div className="col-md-6">
                     {aboutMe.bio.map((paragraph, index) => (
@@ -33,7 +36,12 @@ const AboutMe = () => {
                     </p>
                     <div className="languages-list">
                       <ul>
-                        {aboutMe.skills.map((skill, index) => (
+                        {firstHalf.map((skill, index) => (
+                          <li key={index}>{skill}</li>
+                        ))}
+                      </ul>
+                      <ul>
+                        {secondHalf.map((skill, index) => (
                           <li key={index}>{skill}</li>
                         ))}
                       </ul>
@@ -49,7 +57,7 @@ const AboutMe = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+
             </div>
           </div>
         </div>

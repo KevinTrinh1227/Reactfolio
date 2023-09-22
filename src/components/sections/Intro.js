@@ -1,5 +1,5 @@
 import React from "react";
-import contentData from "../content.json";
+import contentData from "../../content.json";
 
 const Intro = () => {
 

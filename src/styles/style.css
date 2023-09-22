@@ -1,8 +1,8 @@
 :root {
   --dark-navy: #0a192f;
   --navy: #112240;
+  --lightest-navy: #233554;
   --accent-color: #64ffda;
-  --accent-color-two: #64ffda;
   --white: #e6f1ff;
   --bone-white: #ccd6f6;
   --slate: #8892b0;
@@ -100,25 +100,27 @@ a {
 }
 
 .title-box {
-  padding-top: 6rem;
-  margin-bottom: 4rem;
+  padding-top: 5rem;
+  margin-bottom: 1.5rem;
   float: left;
 }
 
 .title-a {
   color: var(--accent-color);
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   font-family: Courier, monospace;
   text-decoration: none;
   text-align: left;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 2rem;
 }
 
 .subtitle-a {
+  margin-top: 0;
   text-decoration: none;
   text-align: left;
   float: left;
-  color: var(--accent-color);
+  color: var(--bone-white);
   font-size: 1rem;
 }
 
@@ -129,10 +131,10 @@ a {
 @media (min-width: 768px) {
   .line-mf {
     display: inline;
-    width: 20rem;
+    width: 28rem;
     height: 1px;
     float: right;
-    background-color: var(--slate);
+    background-color: var(--lightest-navy);
     margin-top: 1.5rem;
     margin-left: 1rem;
   }
@@ -145,12 +147,12 @@ a {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: var(--navy);
+  background-color: var(--dark-navy);
   border-radius:8px;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
+
 @media (min-width: 768px) {
   .box-shadow-full {
     padding: 3rem;
@@ -188,23 +190,38 @@ a {
   padding-left: 0rem;
 }
 
-.about-me-desc{
-  color: #ABB2B9;
+.about-me-desc {
+  color: var(--light-slate);
+  font-size: 1rem;
+  line-height: 1.3;
+  padding-bottom: 1rem;
 }
 
-.languages-list ul {
-  list-style: none;
+.languages-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .languages-list ul li {
-  color: #ABB2B9;
+  color: var(--light-slate);
+  padding-right: 0rem;
+  white-space: nowrap;
+  font-size: 0.8rem;
+}
+
+.languages-list ul {
+  width: 50%;
+  padding: 0 0px;
 }
 
 .languages-list ul li::before {
-  content: "▸";
-  padding-right: 10px;
+  content: "▹";
+  padding-right: 0.8rem;
   color: var(--accent-color);
 }
+
 
 @media (min-width: 768px) {
   .col-md-6 .col-6-img-a {
@@ -300,27 +317,8 @@ a {
 # Education Course Table styles
 --------------------------------------------------------------*/
 
-.course-title h4 {
-  text-decoration: underline;
-  color: var(--accent-color);
-  text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
-  text-align: center;
-}
-
-.course-title p {
-  color: #ABB2B9;
-  text-align: center;
-}
-
 .education table, td, th {
   border: 1px solid #17202A;
-}
-
-.education h4 {
-  padding-bottom: 0.8rem;
-  text-decoration: underline;
-  color: var(--accent-color);
-  text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
 }
 
 .education td {
@@ -333,7 +331,7 @@ a {
 
 .education th {
   text-align: center;
-  color: #ECF0F1;
+  color: var(--white)
 }
 
 .education table {
@@ -343,7 +341,7 @@ a {
 
 .education td {
   height: 50px;
-  color: #ABB2B9;
+  color: var(--bone-white);
   vertical-align: bottom;
 }
 
@@ -576,38 +574,39 @@ a {
   color: var(--accent-color);
   text-decoration: none;
   transition: all 0.5s ease-in-out;
+  font-size: 1.1rem;
 }
 
 .post-date a:hover {
-  color: #ABB2B9;
+  color: var(--white);
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
 
 p, a {
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
   font-family: Courier, monospace;
   margin: 0.8em 0;
-  font-size: 1.2em;
-  color: var(--accent-color);
+  font-size: 1rem;
+  color: var(--slate);
 }
 
 
 .card-title{
+  padding-top: 1rem;
   color: #ECF0F1;
 }
 
 @media (min-width: 767px) {
   .card-recentprojects {
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     background: var(--navy);
     color: #D5D8DC;
   }
 }
 
 .col-md-4 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .card-recentprojects .card-body {
@@ -631,22 +630,35 @@ p, a {
 .card-recentprojects .card-title {
   font-size: 1.3rem;
   margin-top: 0.6rem;
-  color: #D5D8DC;
+  color: var(--white);
 }
 .card-recentprojects .card-description {
-  color: #ABB2B9;
+  color: var(--bone-white);
 }
 .card-recentprojects .post-author {
   display: inline-block;
-  color: #ABB2B9;
+  word-spacing: 0.20rem;
+  color: var(--slate);
 }
 .card-recentprojects .post-date {
   color: var(--accent-color);
   display: inline-block;
 }
 
-.post-date a {
-  padding: 0.15rem;
+.card-footer {
+  display: flex;
+  justify-content: space-between; /* push the author to the left and post-date to the right */
+  align-items: center; /* Vertically center the content */
+}
+
+.post-author {
+  flex: 1; /* take the available space, pushing post-date to the right */
+  word-spacing: 0.20rem;
+  color: var(--slate);
+}
+
+.post-date {
+  color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
@@ -691,6 +703,10 @@ p, a {
   border-left: 4px solid var(--navy);
   padding: 18px;
   font-style: italic;
+}
+
+.card-recentprojects .resources-used {
+  font-size: 0.85rem;
 }
 
 /*--------------------------------------------------------------
@@ -792,7 +808,7 @@ p, a {
 --------------------------------------------------------------*/
 
 li {
-	list-style: none;
+  list-style: none;
 }
 
 #experience {
@@ -800,71 +816,86 @@ li {
 }
 
 .wrapper {
-	display: flex;
-  background: var(--navy);
-  border-radius: 8px;
+  display: flex;
 }
 .indicator {
-	padding: 2.5rem 0;
+  padding: 2.5rem 2rem;
 }
 .indicator li {
-	display: flex;
-	align-items: center;
-	grid-gap: .5rem;
-	padding: 10px 4rem;
-	cursor: pointer;
-	font-size: .875rem;
-	color: #ABB2B9;
-	border-right: 3px solid transparent;
+  display: flex;
+  align-items: center;
+  grid-gap: 0.5rem;
+  padding: 1.5rem 4rem 1.5rem 0rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: var(--white);
+  border-right: 3px solid transparent;
+  transition: border-right-color 0.3s ease; /* Add transition property */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
 }
 .indicator li i {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 .indicator li:hover {
-	color: var(--accent-color);
+  color: var(--accent-color);
 }
 .indicator li.active {
-	border-right-color: var(--accent-color);
+  border-right-color: var(--accent-color);
+  color: var(--accent-color); /* Set the text color of the active indicator */
 }
 .content {
-	padding: 1.5rem 2rem;
+  padding: 1.5rem 4rem;
 }
 .content li {
-	display: none;
+  display: none;
 }
 .content li.active {
-  color: #ABB2B9;
-	display: block;
+  display: list-item;
 }
-.content li h1 {
-	font-size: 1.5rem;
-	font-weight: 600;
-	color: #ABB2B9;
-	margin-bottom: .75rem;
-}
-.content li p {
-	margin-bottom: .5rem;
-	color: #ABB2B9;
-	font-size: 1rem;
-  width: 100%;
+.content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
 }
 
+.content h4 {
+  font-size: 1rem;
+  color: var(--slate);
+  margin-bottom: 1.25rem;
+  word-spacing: 0.25rem;
+}
+
+.content ul {
+  padding-left: 1rem;
+}
+
+.content ul li.active {
+  margin-bottom: 0.5rem;
+  color: var(--slate); 
+  font-size: 1rem;
+  width: 100%;
+  padding-left: 1rem;
+  position: relative; /* Set position to relative for absolute positioning */
+}
+
+/* Style the list item marker (absolute positioning) */
+.content ul li.active::before {
+  content: "▹"; 
+  color: var(--accent-color); 
+  position: absolute; 
+  left: -1rem; /* distance between symbol and text */
+}
+
+
 .content li li {
-	margin-bottom: .5rem;
-	color: #ABB2B9;
-	font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+  font-size: 1rem;
   width: 50%;
 }
 
-
-@media screen and (max-width: 576px) {
-	.wrapper {
-		flex-direction: column;
-	}
-	.indicator {
-		border-right: auto;
-	}
-}
 
 /*--------------------------------------------------------------
 # navlist Section
@@ -922,16 +953,21 @@ li {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #fff;
-  padding: 25px 0;
-  background: #17202A;
+  color: var(--white);
+  padding: 4rem 0 3rem 0;
+  background: var(--dark-navy);
 }
 footer .copyright {
   margin-bottom: 0.3rem;
 }
+
+footer .copyright-box {
+  color: var(--slate);
+}
+
 footer .credits {
   margin-bottom: 0;
 }
 footer .credits a {
-  color: #fff;
+  color: var(--slate);
 }

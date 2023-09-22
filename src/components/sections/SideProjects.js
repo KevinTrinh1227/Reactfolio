@@ -1,5 +1,17 @@
 import React from "react";
-import contentData from "../content.json";
+import contentData from "../../content.json";
+import { FaGithub, FaDownload } from 'react-icons/fa';
+import { FiExternalLink, FiFolder  } from 'react-icons/fi';
+
+
+const iconComponents = {
+  FaGithub: FaGithub,
+  FaDownload: FaDownload,
+  FiExternalLink: FiExternalLink,
+  FiFolder: FiFolder
+  // Add other imported icons here
+};
+
 
 const SideProjects = () => {
   const projects = contentData.projects;
@@ -29,10 +41,11 @@ const SideProjects = () => {
                   <div className="card card-recentprojects">
                     <div className="card-body">
                       <div className="card-category-box"></div>
+                      <h1 className="folder-icon"><FiFolder /></h1>
                       <h3 className="card-title">{project.project_name}</h3>
                       <p className="card-description">{project.description}</p>
                       <br />
-                      <p>{project.resources_used.join(", ")}</p>
+                      <p className="resources-used">{project.resources_used.join(", ")}</p>
                     </div>
                     <div className="card-footer">
                       <div className="post-author">
@@ -41,17 +54,20 @@ const SideProjects = () => {
                         </span>
                       </div>
                       <div className="post-date">
-                        {project.links.map((link, index) => (
-                          <a
-                            key={index}
-                            href={link.href}
-                            target="_blank"
-                            rel="noreferrer"
-                            data-tooltip={link.data_tooltip}
-                          >
-                            <i className={link.icon}></i>
-                          </a>
-                        ))}
+                        {project.links.map((link, index) => {
+                          const IconComponent = iconComponents[link.icon];
+                          return (
+                            <a
+                              key={index}
+                              href={link.href}
+                              target="_blank"
+                              rel="noreferrer"
+                              data-tooltip={link.data_tooltip}
+                            >
+                              <IconComponent /> {/* Render the selected icon component */}
+                            </a>
+                          );
+                        })}
                       </div>
                     </div>
                   </div>

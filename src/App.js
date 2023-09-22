@@ -1,9 +1,10 @@
 import React from "react";
-import Intro from "./components/Intro";
-import About from "./components/About";
-import Education from "./components/Education";
-import WorkExperience from "./components/WorkExperience";
-import SideProjects from "./components/SideProjects";
+import Intro from "./components/sections/Intro";
+import About from "./components/sections/About";
+import Education from "./components/sections/Education";
+import WorkExperience from "./components/sections/WorkExperience";
+import SideProjects from "./components/sections/SideProjects";
+import Footer from "./components/sections/Footer"
 import "./styles/style.css";
 // import GlobalStyle from "./styles/style";
 
@@ -15,6 +16,7 @@ function App() {
         <Education />
         <WorkExperience />
         <SideProjects />
+        <Footer />
       </div>
   );
 }

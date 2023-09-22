@@ -40,13 +40,13 @@
 			"I have a profound interest in numerous types of software development such as machine learning, computer security, databases, and everything in between. I'm a huge enthusiast for desk setups, PC builds, and tattoos. In my free time, I enjoy exploring nature, getting boba, playing video games, and thrifting."
 		],
 		"skills_caption": "Some technologies I've worked with:",
-		"skills": ["Python", "JavaScript ES6+", "HTML & CSS", "React & Node.js"]
+		"skills": ["JavaScript ES6+", "React.js", "Node.js", "HTML & CSS", "Python 3", "Ubuntu LTS"]
 	},
 	"academics": {
 		"section": {
 			"enable_section": true,
 			"title": "~/Education",
-			"description": "Information relevant to my education at St. Mary's University."
+			"description": "Courses that I have completed or am on track to complete. Current GPA: 3.24"
 		},
 		"general": {
 			"school": "St. Mary's University",
@@ -188,41 +188,41 @@
 		  {
 			"organization": "McNair STMU",
 			"title": "Research Intern",
-			"start_date": "05/2023",
-			"end_date": "07/2023",
+			"start_date": "May 2023",
+			"end_date": " July 2023",
 			"description": [
-			  "Description paragraph one",
-			  "Description paragraph two"
+			  "As an undergraduate research intern in the McNair Program, I had the opportunity to conduct extensive research and work on a challenging project: developing a coding translator. I built a parser, lexer, and semantic analyzer module to translate my custom code into assembly language for a virtual machine.",
+			  "Collaborating closely with my mentors, I gained invaluable guidance, refining my development skills and deepening my understanding of language design principles, including compiler design methodologies. This experience has equipped me with practical knowledge and hands-on experience in building parsers, lexers, and semantic analyzer/code generator modules while also enhancing my proficieny in fast-paced environments and ensuring that I can deliver project deliverables on time with efficiency and accuracy."
 			]
 		  },
 		  {
-			"organization": "Job Two",
-			"title": "SWE Intern @ Company",
+			"organization": "Apple Corp",
+			"title": "SWE Intern",
 			"start_date": "08/2022",
 			"end_date": "10/2022",
 			"description": [
-			  "Description paragraph one",
-			  "Description paragraph two"
+			  "What I did at Apple was that I...",
+			  "I also ate apples"
 			]
 		  },
 		  {
-			"organization": "Job Three",
-			"title": "Junior Software Engineer @ Company",
+			"organization": "Meta LLC",
+			"title": "Data Engineer",
 			"start_date": "08/2022",
 			"end_date": "10/2022",
 			"description": [
-			  "Description paragraph one",
-			  "Description paragraph two"
+			  "What I did at Meta/Facebook book was...",
+			  "I also read books"
 			]
 		  },
 		  {
-			"organization": "Job Four",
-			"title": "Junior Software Engineer @ Company",
+			"organization": "Pintrest CO",
+			"title": "Intern",
 			"start_date": "08/2022",
 			"end_date": "10/2022",
 			"description": [
-			  "Description paragraph one",
-			  "Description paragraph two"
+			  "My duties at Pintrest were to...",
+			  "I also played video games on my phone"
 			]
 		  }
 		]
@@ -237,36 +237,57 @@
 		  {
 			"use_git_api": false,
 			"github_link": "https://github.com/your-username/project-one",
-			"project_name": "Project One",
-			"description": "A description of the project. Something something something does this and that.",
+			"project_name": "Custom Lang Translator",
+			"description": "A Python-based language translator for converting my custom language \"K-Lang\" to assembly language for a virtual machine.",
 			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
 			"start_date": "Dec 2022",
 			"end_date": "Jan 2023",
 			"links": [
 			  {
-				"href": "https://example.com/project-one",
-				"icon": "fa-solid fa-link",
-				"data_tooltip": "Visit Project Website"
-			  }
+          "href": "https://linktwo.com",
+          "icon": "FaGithub",
+          "data_tooltip": "Visit Docs Page"
+        },
+        {
+          "href": "https://linktwo.com",
+          "icon": "FiExternalLink",
+          "data_tooltip": "Visit Website"
+        }
+			]
+		  },
+		  {
+			"use_git_api": false,
+			"github_link": "https://github.com/your-username/project-two",
+			"project_name": "Hycord Bot",
+			"description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Ultimate Hypixel Discord bot.",
+			"resources_used": ["Python", "Discord.py", "Hypixel API"],
+			"start_date": "Dec 2022",
+			"end_date": "Jan 2023",
+			"links": [
+			  {
+          "href": "https://linktwo.com",
+          "icon": "FaGithub",
+          "data_tooltip": "Visit Docs Page"
+        },
+        {
+          "href": "https://linktwo.com",
+          "icon": "FaDownload",
+          "data_tooltip": "Visit Docs Page"
+        }
 			]
 		  },
 		  {
 			"use_git_api": false,
 			"github_link": "https://github.com/your-username/project-two",
 			"project_name": "Project Two",
-			"description": "A description of the project. Something something something does this and that.",
+			"description": "A description of the project. Something something something does this and that super duper well done. Something something did that and this.",
 			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
 			"start_date": "Dec 2022",
 			"end_date": "Jan 2023",
 			"links": [
 			  {
-				"href": "https://example.com/project-two",
-				"icon": "fa-solid fa-link",
-				"data_tooltip": "Visit Project Website"
-			  },
-			  {
 				"href": "https://linktwo.com",
-				"icon": "fa-solid fa-book",
+				"icon": "FaGithub",
 				"data_tooltip": "Visit Docs Page"
 			  }
 			]
@@ -275,79 +296,48 @@
 			"use_git_api": false,
 			"github_link": "https://github.com/your-username/project-two",
 			"project_name": "Project Two",
-			"description": "A description of the project. Something something something does this and that.",
+			"description": "A description of the project. Something something something does this and that super duper well done.",
 			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
 			"start_date": "Dec 2022",
 			"end_date": "Jan 2023",
 			"links": [
 			  {
-				"href": "https://example.com/project-two",
-				"icon": "fa-solid fa-link",
-				"data_tooltip": "Visit Project Website"
-			  },
-			  {
-				"href": "https://linktwo.com",
-				"icon": "fa-solid fa-book",
-				"data_tooltip": "Visit Docs Page"
-			  }
+          "href": "https://linktwo.com",
+          "icon": "FaGithub",
+          "data_tooltip": "Visit Docs Page"
+        }
 			]
 		  },
 		  {
 			"use_git_api": false,
 			"github_link": "https://github.com/your-username/project-two",
 			"project_name": "Project Two",
-			"description": "A description of the project. Something something something does this and that.",
+			"description": "A description of the project. Something something something does this and that super duper well done.",
 			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
 			"start_date": "Dec 2022",
 			"end_date": "Jan 2023",
 			"links": [
 			  {
-				"href": "https://example.com/project-two",
-				"icon": "fa-solid fa-link",
-				"data_tooltip": "Visit Project Website"
-			  },
-			  {
-				"href": "https://linktwo.com",
-				"icon": "fa-solid fa-book",
-				"data_tooltip": "Visit Docs Page"
-			  }
-			]
-		  },
-		  {
-			"use_git_api": false,
-			"github_link": "https://github.com/your-username/project-two",
-			"project_name": "Project Two",
-			"description": "A description of the project. Something something something does this and that.",
-			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
-			"start_date": "Dec 2022",
-			"end_date": "Jan 2023",
-			"links": [
-			  {
-				"href": "https://example.com/project-two",
-				"icon": "fa-solid fa-link",
-				"data_tooltip": "Visit Project Website"
-			  },
-			  {
-				"href": "https://linktwo.com",
-				"icon": "fa-solid fa-book",
-				"data_tooltip": "Visit Docs Page"
-			  }
+          "href": "https://linktwo.com",
+          "icon": "FaGithub",
+          "data_tooltip": "Visit Docs Page"
+        }
 			]
 		  },
 		  {
 			"use_git_api": false,
 			"github_link": "https://github.com/your-username/project-three",
 			"project_name": "Project Three",
-			"description": "A description of the project. Something something something does this and that.",
+			"description": "A description of the project. Something something something does this and that super duper well done.",
 			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
 			"start_date": "Dec 2022",
 			"end_date": "Jan 2023",
 			"links": [
 			  {
-				"href": "https://example.com/project-three",
-				"icon": "fa-solid fa-link",
-				"data_tooltip": "Visit Project Website"
-			  }
+          "href": "https://linktwo.com",
+          "icon": "FaGithub",
+          "data_tooltip": "Visit Docs Page"
+        }
 			]
 		  }
 		]
