@@ -1,4 +1,5 @@
 import React from "react";
+import RepoStats from "./components/sections/RepoStats"
 import Navbar from "./components/sections/Navbar"
 import Linkbar from "./components/sections/Linkbar"
 import Intro from "./components/sections/Intro";
@@ -13,6 +14,7 @@ import "./styles/style.css";
 function App() {
   return (
       <div className="App">
+        <RepoStats />
         <Linkbar />
         <Navbar />
         <Intro />

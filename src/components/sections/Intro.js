@@ -1,5 +1,6 @@
 import React from "react";
 import contentData from "../../content.json";
+import { FaComment } from 'react-icons/fa';
 
 const Intro = () => {
 
@@ -17,17 +18,12 @@ const Intro = () => {
           <section class="intro_section">
             <h1>{introContent.main_header}</h1>
             <p><strong>{introContent.main_subtitle}</strong></p>
-
-            <div class="introParagraph">
-              <h4>‎</h4>
-              <p></p>
-              {introBio}
-            </div>
-
+              <div className="introParagraph">
+                {introBio}
+              </div>
             <h3>
               <a href={`mailto:${generalContent.navbar_social_links.email}`}>
-                <i class="fa-solid fa-envelope"></i>
-                {introContent.email_button}
+                <FaComment /> {introContent.email_button}
               </a>
             </h3>
           </section>

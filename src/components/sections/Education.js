@@ -18,7 +18,6 @@ const Education = () => {
   return (
     <section id="education">
       <div className="container">
-        <div className="reveal">
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box">
@@ -48,7 +47,7 @@ const Education = () => {
                         <tbody>
                           {year.courses.map((course, index) => (
                             <tr key={index}>
-                              <td data-tooltip={course.name}>{course.abbreviation}</td>
+                              <td data-tooltip={course.abbreviation}>{course.name}</td>
                               <td>{course.credits.toFixed(1)}</td>
                             </tr>
                           ))}
@@ -58,10 +57,8 @@ const Education = () => {
                   </div>
                 ))}
               </div>
-
             </div>
           </div>
-        </div>
       </div>
     </section>
   );

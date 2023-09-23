@@ -14,7 +14,6 @@ const WorkExperience = () => {
   return (
     <section className="Experience-section">
       <div className="container">
-        <div className="reveal">
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box text-center">
@@ -52,7 +51,6 @@ const WorkExperience = () => {
                 </div>
               </div>
           </div>
-        </div>
       </div>
     </section>
   );

@@ -10,7 +10,6 @@ const AboutMe = () => {
   return (
     <section>
       <div className="container">
-        <div className="reveal">
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box">
@@ -60,7 +59,6 @@ const AboutMe = () => {
 
             </div>
           </div>
-        </div>
       </div>
     </section>
   );
