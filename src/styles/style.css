@@ -110,7 +110,7 @@ a {
 
 .title-a {
   color: var(--accent-color);
-  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+  font-family: var(--font-mono);
   text-decoration: none;
   text-align: left;
   font-size: 2.5rem;
@@ -123,8 +123,10 @@ a {
   text-decoration: none;
   text-align: left;
   float: left;
-  color: var(--bone-white);
-  font-size: 1rem;
+  color: var(--light-slate);
+  font-weight: bold;
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
 }
 
 .line-mf {
@@ -162,31 +164,6 @@ a {
   }
 }
 
-/*--------------------------------------------------------------
-# Repo Stats Section
---------------------------------------------------------------*/
-/* CSS for RepoStats component */
-.repo-stats {
-  position: fixed;
-  top: 1rem;
-  right: 10rem;
-  background-color: var(--dark-navy);
-  padding: 10px;
-  transition: opacity 0.3s;
-  z-index: 999;
-}
-
-.repo-stats p {
-  color: var(--slate);
-}
-
-.repo-stats.hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-/* Add additional styling as needed */
-
 
 /*--------------------------------------------------------------
 # About me section
@@ -220,8 +197,9 @@ a {
 }
 
 .about-me-desc {
-  color: var(--light-slate);
-  font-size: 1rem;
+  color: var(--slate);
+  font-size: 1.2rem;
+  font-family: var(--font-sans);
   line-height: 1.3;
   padding-bottom: 1rem;
 }
@@ -359,7 +337,7 @@ a {
 
 .education th {
   text-align: left;
-  color: var(--white)
+  color: var(--bone-white)
 }
 
 .education table {
@@ -369,7 +347,7 @@ a {
 
 .education td {
   height: 50px;
-  color: var(--bone-white);
+  color: var(--light-slate);
   vertical-align: bottom;
 }
 
@@ -890,10 +868,10 @@ li {
 
 
 /*--------------------------------------------------------------
-# navlist AND link bar Section
+# navlist AND link bar AND Repo Stats Section
 --------------------------------------------------------------*/
 
-.navlist, .linkbar {
+.repo-stats, .navlist, .linkbar {
   display: none;
 }
 
@@ -913,6 +891,27 @@ li {
 
 
 @media (min-width: 1850px) {
+
+  .repo-stats {
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 10rem;
+    background-color: var(--dark-navy);
+    padding: 10px;
+    transition: opacity 0.3s;
+    z-index: 999;
+  }
+  
+  .repo-stats p {
+    color: var(--slate);
+  }
+  
+  .repo-stats.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
   .navlist {
     font-size: 0.85rem;
     text-transform: lowercase;

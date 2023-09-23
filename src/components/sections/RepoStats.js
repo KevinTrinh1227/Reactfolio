@@ -63,7 +63,7 @@ const RepoStats = () => {
     <div className={`repo-stats ${hidden ? 'hidden' : ''}`}>
       <a href='https://github.com/KevinTrinh1227/Reactfolio' target="_blank" rel="noreferrer">
         <p>
-          Repository Name: {repoData.name} • Author: {repoData.owner?.login} • Total Commits: {totalCommits} • Last Updated: {new Date(repoData.pushed_at).toLocaleString()} UTC
+          Repository Name: {repoData.name} • Author: {repoData.owner?.login} • Total Commits: {totalCommits+1} • Lastest Push: {new Date(repoData.pushed_at).toLocaleString()} CST
         </p>
       </a>
     </div>

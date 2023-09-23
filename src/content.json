@@ -11,6 +11,9 @@
 		}
 	},
 	"intro_screen": {
+		"section": {
+			"enable_section": true
+		},
 		"main_header": "Hello, Kevin here.",
 		"main_subtitle": "I like to build stuff occasionally.",
 		"comment_typing_string": [
@@ -32,8 +35,8 @@
 		"section": {
 			"enable_section": true,
 			"title": "~/About",
-      "navbar_name": "/About",
-			"description": "Brief information about myself and my interests."
+      		"navbar_name": "/About",
+			"description": "Brief information about me and some of my interests."
 		},
 		"headShotUrl": "../assets/portrait.png",
 		"bio": [
@@ -248,14 +251,14 @@
 			"end_date": "Jan 2023",
 			"links": [
 			  {
-          "href": "https://linktwo.com",
+          "href": "https://github.com/KevinTrinh1227/Custom-Lang-Translator",
           "icon": "FaGithub",
-          "data_tooltip": "Visit Docs Page"
+          "data_tooltip": "Visit GitHub Repo"
         },
         {
-          "href": "https://linktwo.com",
-          "icon": "FiExternalLink",
-          "data_tooltip": "Visit Website"
+          "href": "../../public/assets/McNairPublishedPaper.pdf",
+          "icon": "FaFilePdf",
+          "data_tooltip": "View Paper"
         }
 			]
 		  },

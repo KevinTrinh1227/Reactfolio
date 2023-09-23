@@ -1,6 +1,6 @@
 import React from "react";
 import contentData from "../../content.json";
-import { FaGithub, FaDownload } from 'react-icons/fa';
+import { FaGithub, FaDownload, FaFilePdf } from 'react-icons/fa';
 import { FiExternalLink, FiFolder  } from 'react-icons/fi';
 
 
@@ -8,8 +8,8 @@ const iconComponents = {
   FaGithub: FaGithub,
   FaDownload: FaDownload,
   FiExternalLink: FiExternalLink,
-  FiFolder: FiFolder
-  // Add other imported icons here
+  FiFolder: FiFolder,
+  FaFilePdf: FaFilePdf
 };
 
 
