@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="Fav Icon Png" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/readme-icon.png" width="100"/>
+</p>
+<h1 align="center">
+  kevintrinh.dev - v2
+</h1>
+<p align="center">
+  The Second iteration of <a href="https://www.kevintrinh.dev" target="_blank">kevintrinh.dev</a> built with React.js with GitHub API integration.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img alt="Screen Shot from 9-24-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot.png">
 
-## Available Scripts
+## 📌 Important Information
 
-In the project directory, you can run:
+This project's native machine & version: Linux OS (Ubuntu LTS) using NVM with Node.js v16.20.2
 
-### `npm start`
+This project is simply a revamped version of my [kevintrinh-v1](https://www.kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, UI changes, bug fixes, and more! This project is fully open source and I encourage anyone that would like to, contribute to the project as well. This iteration continues with a simplistic and minimalistic approach to the same "one page one scroll" design philosophy (same from V1).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything mainly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 set-up
 
-### `npm test`
+1. Use the correct Node version using [NVM](https://github.com/nvm-sh/nvm) (Not mandatory)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```sh
+   nvm install 16
+   ```
 
-### `npm run build`
+   ```sh
+   nvm alias default 16
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install the dependencies (npm or yarn)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```sh
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```sh
+   yarn install
+   ```
 
-### `npm run eject`
+3. Start the development server (npm or yarn)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```sh
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```sh
+   yarn run start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Build and run for production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Generate a complete static production build
 
-## Learn More
+   ```sh
+   npm run build
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 CSS color codes and fonts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Color         | Hex Code                                                             | Usage Info                 | CSS Usage              |
+| ------------- | -------------------------------------------------------------------- | -------------------------- | ---------------------- |
+| Dark Navy     | ![[#0b182c]](https://via.placeholder.com/10/0b182c?text=+) `#0b182c` | Main background color      | `var(--dark-navy)`     |
+| Navy          | ![[#12223d]](https://via.placeholder.com/10/12223d?text=+) `#12223d` | Secondary background color | `var(--navy)`          |
+| Light Navy    | ![[#233450]](https://via.placeholder.com/10/233450?text=+) `#233450` | Data tool tip color        | `var(--light-navy)`    |
+| Light Lime    | ![[#64ff93]](https://via.placeholder.com/10/64ff93?text=+) `#64ff93` | Main accent color          | `var(--light-lime)`    |
+| White         | ![[#e9f1fc]](https://via.placeholder.com/10/e9f1fc?text=+) `#e9f1fc` | Main text color            | `var(--white)`         |
+| Bone White    | ![[#d4ddf8]](https://via.placeholder.com/10/d4ddf8?text=+) `#d4ddf8` | Secondary text color       | `var(--bone-white)`    |
+| Smoke         | ![[#8992ac]](https://via.placeholder.com/10/8992ac?text=+) `#8992ac` | Tertiary text color        | `var(--smoke)`         |
+| Light Smoke   | ![[#acb5cf]](https://via.placeholder.com/10/acb5cf?text=+) `#acb5cf` | Section subtitles text     | `var(--light-smoke)`   |
+| Lighter Smoke | ![[#d0d8f3]](https://via.placeholder.com/10/d0d8f3?text=+) `#d0d8f3` | Section Title text         | `var(--lighter-smoke)` |
