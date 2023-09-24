@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
+import contentData from "../../content.json";
 
 const RepoStats = () => {
   const [repoData, setRepoData] = useState({});
@@ -6,13 +7,15 @@ const RepoStats = () => {
   const [totalCommits, setTotalCommits] = useState(0);
 
   useEffect(() => {
-    // Replace with your GitHub repository URL
-    const apiUrl = 'https://api.github.com/repos/KevinTrinh1227/Reactfolio';
+    // JSON API LINK MUST BE AN API LINK
+    // AND NOT A REGULAR REPOSITORY GIT LINK
+    // MAKE SURE REPO IS NOT PRIVATE
+    const apiUrl = contentData.repo_stats.api_link;
 
     fetch(apiUrl)
       .then((response) => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         return response.json();
       })
@@ -20,14 +23,14 @@ const RepoStats = () => {
         setRepoData(data);
       })
       .catch((error) => {
-        console.error('Error fetching data:', error);
+        console.error("Error fetching data:", error);
       });
 
     // Fetch commit statistics
-    fetch(apiUrl + '/stats/participation')
+    fetch(apiUrl + "/stats/participation")
       .then((response) => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         return response.json();
       })
@@ -38,15 +41,15 @@ const RepoStats = () => {
         setTotalCommits(total);
       })
       .catch((error) => {
-        console.error('Error fetching commit statistics:', error);
+        console.error("Error fetching commit statistics:", error);
       });
 
     // Event listener for scrolling
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Cleanup the event listener when the component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -59,13 +62,46 @@ const RepoStats = () => {
     }
   };
 
+  function commitUrl(input, attachment) {
+    return `${input}${attachment}`;
+  }
+
+  const commit_link = commitUrl(
+    contentData.repo_stats.repo_link,
+    "/commits/master"
+  );
+  const last_commit_link = commitUrl(
+    contentData.repo_stats.repo_link,
+    "/commit"
+  );
+
   return (
-    <div className={`repo-stats ${hidden ? 'hidden' : ''}`}>
-      <a href='https://github.com/KevinTrinh1227/Reactfolio' target="_blank" rel="noreferrer">
-        <p>
-          Repository Name: {repoData.name} • Author: {repoData.owner?.login} • Total Commits: {totalCommits+1} • Lastest Push: {new Date(repoData.pushed_at).toLocaleString()} CST
-        </p>
-      </a>
+    <div className={`repo-stats ${hidden ? "hidden" : ""}`}>
+      <p>
+        <a
+          href={contentData.repo_stats.repo_link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Repository Name: {repoData.name}
+        </a>{" "}
+        •{" "}
+        <a
+          href={contentData.general.navbar_social_links.github}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Author: {repoData.owner?.login}
+        </a>{" "}
+        •{" "}
+        <a href={commit_link} target="_blank" rel="noreferrer">
+          Total Commits: {totalCommits}
+        </a>{" "}
+        •{" "}
+        <a href={last_commit_link} target="_blank" rel="noreferrer">
+          Last Push: {new Date(repoData.pushed_at).toLocaleString()} CST
+        </a>
+      </p>
     </div>
   );
 };

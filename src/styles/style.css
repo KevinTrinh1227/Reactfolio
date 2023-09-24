@@ -2,14 +2,15 @@
   --dark-navy: #0b182c;
   --navy: #12223d;
   --lightest-navy: #233450;
-  --accent-color: #64FF93;
+  --accent-color: #64ff93;
   --white: #e9f1fc;
   --bone-white: #d4ddf8;
   --slate: #8992ac;
   --light-slate: #acb5cf;
   --lightest-slate: #d0d8f3;
-  --font-sans: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
-  --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+  --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 
 body {
@@ -39,11 +40,16 @@ a {
   text-decoration: none;
 }
 
-.box-shadow, .card-recentprojects, .work-box, .service-box, .paralax-mf {
+.box-shadow,
+.card-recentprojects,
+.work-box,
+.service-box,
+.paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a, .button:hover {
+.box-shadow-a,
+.button:hover {
   text-decoration: none;
   box-shadow: 0 0 0 4px #cde1f8;
 }
@@ -55,7 +61,7 @@ a {
 }
 
 .overlay-mf {
-  background-color: #17202A;
+  background-color: #17202a;
 }
 
 .overlay-mf {
@@ -153,7 +159,7 @@ a {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: var(--dark-navy);
-  border-radius:8px;
+  border-radius: 8px;
   margin-bottom: 3rem;
   z-index: 2;
 }
@@ -163,7 +169,6 @@ a {
     padding: 3rem;
   }
 }
-
 
 /*--------------------------------------------------------------
 # About me section
@@ -180,16 +185,16 @@ a {
 }
 
 .about-me-desc strong a:hover {
-  color: #ABB2B9;
+  color: #abb2b9;
   text-decoration: none;
 }
 
 .myportrait {
   height: 375px;
   border-radius: 8px;
-  box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
-  -webkit-box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
-  -moz-box-shadow: 10px 10px 58px 6px rgba(0,0,0,0.56);
+  box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
 }
 
 .col-md-6 img {
@@ -229,7 +234,6 @@ a {
   color: var(--accent-color);
 }
 
-
 @media (min-width: 768px) {
   .col-md-6 .col-6-img-a {
     padding-left: 4rem;
@@ -240,18 +244,17 @@ a {
 # Revealing scroll effect
 --------------------------------------------------------------*/
 
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: all 2s ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0px);
   opacity: 1;
 }
-
 
 /*--------------------------------------------------------------
 # Tooltips for courses tables
@@ -288,6 +291,7 @@ a {
   background-color: var(--lightest-navy);
   color: var(--white);
   content: attr(data-tooltip);
+  transition: all 0.15s ease-in;
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
@@ -302,7 +306,7 @@ a {
   margin-left: -5px;
   margin-bottom: 15px;
   width: 0;
-  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-top: 5px solid var(--lightest-navy);
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
   content: " ";
@@ -323,7 +327,9 @@ a {
 # Education Course Table styles
 --------------------------------------------------------------*/
 
-.education table, td, th {
+.education table,
+td,
+th {
   border: 1px solid var(--dark-navy);
 }
 
@@ -331,13 +337,11 @@ a {
   padding-left: 0.7rem;
 }
 
-.educationTitleSperator {
-  padding-top: 3rem;
-}
-
 .education th {
   text-align: left;
-  color: var(--bone-white)
+  color: var(--bone-white);
+  padding-top: 2.5rem;
+  font-size: 1.1rem;
 }
 
 .education table {
@@ -367,20 +371,20 @@ a {
 }
 
 .education-extras p {
-  color: #ABB2B9;
+  color: #abb2b9;
   text-align: center;
 }
 
 .education-extras table th {
   text-align: center;
-  color: #ECF0F1;
+  color: #ecf0f1;
 }
 
 .education-extras table td {
   text-align: left;
   padding-left: 0.5rem;
   height: 50px;
-  color: #ABB2B9;
+  color: #abb2b9;
   vertical-align: bottom;
 }
 
@@ -391,7 +395,7 @@ a {
 }
 
 .education-extras a:hover {
-  color: #ECF0F1;
+  color: #ecf0f1;
   transition: all 0.5s ease-in-out;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
@@ -399,7 +403,6 @@ a {
 .course-title strong {
   color: var(--accent-color);
 }
-
 
 /*--------------------------------------------------------------
 # Resume Buttons
@@ -418,12 +421,10 @@ a {
 }
 
 .resumeButtons a:hover {
-  color: #ECF0F1;
+  color: #ecf0f1;
   transition: all 0.5s ease-in-out;
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
 }
-
-
 
 /*--------------------------------------------------------------
 # intro landing screen
@@ -442,21 +443,20 @@ a {
   background: var(--dark-navy);
   color: var(--slate);
   line-height: 1.4;
-  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   height: 100vh;
 }
 
 @media (min-width: 767px) {
   .intro_section {
-    padding-top: 28%;
+    padding-top: 15%;
   }
+}
 
-  .intro_section .introParagraph p {
-    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
-    word-spacing: 0.4rem;
-    letter-spacing: 1.10px;
-    font-size: 1.25rem;
-    font-weight: 1000;
+/* adjusted padding from top for larger monirot/screens */
+@media (min-width: 1350px) {
+  .intro_section {
+    padding-top: 28%;
   }
 }
 
@@ -466,7 +466,7 @@ a {
 
 .intro_section h1 {
   color: var(--lightest-slate);
-  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   margin: 0 0 10px;
   font-size: 3rem;
   font-weight: 1000;
@@ -501,6 +501,15 @@ a {
   font-size: 3rem;
 }
 
+.intro_section .introParagraph p {
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  word-spacing: 0.4rem;
+  letter-spacing: 1.1px;
+  font-size: 1.25rem;
+  font-weight: 1000;
+}
+
 .intro_section em {
   color: #dd925f;
 }
@@ -528,15 +537,13 @@ a {
   color: #b5bc67;
 }
 
-
-
 /*--------------------------------------------------------------
 # recentprojects
 --------------------------------------------------------------*/
 
-.card-recentprojects{
+.card-recentprojects {
   background: var(--navy);
-  color: #D5D8DC;
+  color: #d5d8dc;
   border-radius: 8px;
 }
 
@@ -553,24 +560,24 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
-p, a {
-  font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+p,
+a {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   margin: 0.8em 0;
   font-size: 1rem;
   color: var(--slate);
 }
 
-
-.card-title{
+.card-title {
   padding-top: 1rem;
-  color: #ECF0F1;
+  color: #ecf0f1;
 }
 
 @media (min-width: 767px) {
   .card-recentprojects {
     margin-bottom: 0rem;
     background: var(--navy);
-    color: #D5D8DC;
+    color: var(--white);
   }
 }
 
@@ -582,6 +589,21 @@ p, a {
 .card-recentprojects .card-body {
   position: relative;
 }
+
+/* fade in effect for card-body */
+
+.card-body:hover .card-description {
+  color: var(--white);
+  transition: color 0.5s ease-in-out;
+}
+
+.card-body:hover .resources-used {
+  color: var(--white);
+  transition: color 0.5s ease-in-out;
+}
+
+/* fade effect ends here */
+
 .card-recentprojects .card-category-box {
   position: absolute;
   text-align: center;
@@ -592,8 +614,8 @@ p, a {
   overflow: hidden;
 }
 
-.card-title{
-  color: #D5D8DC;
+.card-title {
+  color: var(--white);
   padding-bottom: 0.8rem;
 }
 
@@ -603,11 +625,11 @@ p, a {
   color: var(--white);
 }
 .card-recentprojects .card-description {
-  color: var(--bone-white);
+  color: var(--light-slate);
 }
 .card-recentprojects .post-author {
   display: inline-block;
-  word-spacing: 0.20rem;
+  word-spacing: 0.2rem;
   color: var(--slate);
 }
 .card-recentprojects .post-date {
@@ -623,7 +645,7 @@ p, a {
 
 .post-author {
   flex: 1; /* take the available space, pushing post-date to the right */
-  word-spacing: 0.20rem;
+  word-spacing: 0.2rem;
   color: var(--slate);
 }
 
@@ -637,9 +659,9 @@ p, a {
 
 @media (min-width: 768px) {
   .post-box,
-.form-comments,
-.box-comments,
-.widget-sidebar {
+  .form-comments,
+  .box-comments,
+  .widget-sidebar {
     padding: 3rem;
   }
 }
@@ -706,7 +728,7 @@ p, a {
   padding: 2rem 3% 1rem 4%;
 }
 .work-content .w-more {
-  color: #ABB2B9;
+  color: #abb2b9;
   font-size: 0.8rem;
 }
 .work-content .w-more .w-ctegory {
@@ -715,7 +737,7 @@ p, a {
 
 .w-title {
   font-size: 1.2rem;
-  color: #ECF0F1;
+  color: #ecf0f1;
 }
 
 /*--------------------------------------------------------------
@@ -731,14 +753,20 @@ p, a {
   margin-top: 20px;
   position: relative;
 }
-.certifications-details .certifications-details-slider .swiper-pagination .swiper-pagination-bullet {
+.certifications-details
+  .certifications-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid var(--navy);
 }
-.certifications-details .certifications-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.certifications-details
+  .certifications-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: var(--navy);
 }
 .certifications-details .certifications-info {
@@ -771,7 +799,6 @@ p, a {
 .certifications-details .certifications-description p {
   padding: 0;
 }
-
 
 /*--------------------------------------------------------------
 # experience section
@@ -843,21 +870,21 @@ li {
 
 .content ul li.active {
   margin-bottom: 0.5rem;
-  color: var(--slate); 
+  color: var(--slate);
   font-size: 1rem;
   width: 100%;
   padding-left: 1rem;
+  padding-bottom: 0.8rem; /* Distance from other li descriptions */
   position: relative; /* Set position to relative for absolute positioning */
 }
 
 /* Style the list item marker (absolute positioning) */
 .content ul li.active::before {
-  content: "▹"; 
-  color: var(--accent-color); 
-  position: absolute; 
+  content: "▹";
+  color: var(--accent-color);
+  position: absolute;
   left: -1rem; /* distance between symbol and text */
 }
-
 
 .content li li {
   margin-bottom: 0.5rem;
@@ -866,12 +893,13 @@ li {
   width: 50%;
 }
 
-
 /*--------------------------------------------------------------
 # navlist AND link bar AND Repo Stats Section
 --------------------------------------------------------------*/
 
-.repo-stats, .navlist, .linkbar {
+.repo-stats,
+.navlist,
+.linkbar {
   display: none;
 }
 
@@ -883,15 +911,30 @@ li {
 }
 
 .navlist ul li a:hover {
-  color: #ECF0F1;
+  color: #ecf0f1;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
+.linkbar a:hover {
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
 
-@media (min-width: 1850px) {
+.repo-stats {
+  color: var(--slate);
+}
 
+.repo-stats a:hover {
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+/* minimum screen width for the nav, links, etc to fit */
+@media (min-width: 1660px) {
   .repo-stats {
     display: block;
     position: fixed;
@@ -902,11 +945,7 @@ li {
     transition: opacity 0.3s;
     z-index: 999;
   }
-  
-  .repo-stats p {
-    color: var(--slate);
-  }
-  
+
   .repo-stats.hidden {
     opacity: 0;
     pointer-events: none;
@@ -937,7 +976,9 @@ li {
     padding: 0.5rem;
   }
 
-  .linkbar {display: block;}
+  .linkbar {
+    display: block;
+  }
 
   .linkbar {
     position: fixed;
@@ -947,36 +988,29 @@ li {
     width: 50px;
     z-index: 1;
   }
-  
+
   .linkbar ul {
     list-style: none;
     padding: 0;
   }
-  
+
   .linkbar li {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
   }
-  
+
   .linkbar nav {
     display: flex;
     flex-direction: column;
   }
-  
+
   .linkbar a {
     color: var(--slate);
     font-size: 1.3rem;
     padding: 0 10px;
   }
-  
-  .linkbar a:hover {
-    color: var(--white);
-    transition: all 0.3s ease-in-out;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
-  }
-
 }
 
 /*--------------------------------------------------------------

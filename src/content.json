@@ -1,352 +1,371 @@
 {
-	"general": {
-		"first_name": "Kevin",
-		"middle_name": "Huy",
-		"last_name": "Trinh",
-		"navbar_social_links": {
-			"github": "https://github.com/KevinTrinh1227",
-			"handshake": "https://app.joinhandshake.com/stu/users/32148581",
-			"linkedin": "https://www.linkedin.com/in/trinhkevin1227",
-			"email": "kevintrinh1227@gmail.com"
-		}
-	},
-	"intro_screen": {
-		"section": {
-			"enable_section": true
-		},
-		"main_header": "Hello, Kevin here.",
-		"main_subtitle": "I like to build stuff occasionally.",
-		"comment_typing_string": [
-			"/* -----------",
-			"char siteAuthor[] = 'Kevin Huy Trinh'",
-			"char currentClassification[] = 'Sophomore'",
-			"char lastUpdated[] = '08/29/2023'",
-			"--------- */"
-		],
-		"intro_bio": [
-			"I'm currently a Sophomore attending St. Mary's University,",
-			"Majoring in Computer Science with minor in Mathematics.",
-			"I have a profound interest in machine learning, operating",
-			"systems, full-stack development, and everything in between."
-		],
-		"email_button": "Say hello to me!"
-	},
-	"about_me": {
-		"section": {
-			"enable_section": true,
-			"title": "~/About",
-      		"navbar_name": "/About",
-			"description": "Brief information about me and some of my interests."
-		},
-		"headShotUrl": "../assets/portrait.png",
-		"bio": [
-			"I am currently studying computer science at St. Mary's University with a focus in computer science with a minor in mathematics. Recently, I was an undergrad research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
-			"I have a profound interest in numerous types of software development such as machine learning, operating systems, and especially in full-stack development. I'm a huge desk setup and PC enthusiast. In my free time, I enjoy playing/analyzing chess games, online window shopping, thrifting, and playing Minecraft multiplayer servers."
-		],
-		"skills_caption": "Some technologies I've worked with:",
-		"skills": ["JavaScript ES6+", "React.js", "Node.js", "HTML & CSS", "Python 3", "Ubuntu LTS & Git"]
-	},
-	"academics": {
-		"section": {
-			"enable_section": true,
-			"title": "~/Education",
+  "general": {
+    "first_name": "Kevin",
+    "middle_name": "Huy",
+    "last_name": "Trinh",
+    "navbar_social_links": {
+      "github": "https://github.com/KevinTrinh1227",
+      "handshake": "https://app.joinhandshake.com/stu/users/32148581",
+      "linkedin": "https://www.linkedin.com/in/trinhkevin1227",
+      "email": "kevintrinh1227@gmail.com"
+    }
+  },
+  "repo_stats": {
+    "section": {
+      "enable_section": true
+    },
+    "repo_link": "https://github.com/KevinTrinh1227/Reactfolio",
+    "api_link": "https://api.github.com/repos/KevinTrinh1227/Reactfolio"
+  },
+  "intro_screen": {
+    "section": {
+      "enable_section": true
+    },
+    "main_header": "Hello, Kevin here.",
+    "main_subtitle": "I like to build stuff occasionally.",
+    "intro_bio": [
+      "I'm currently a Sophomore attending St. Mary's University,",
+      "Majoring in Computer Science with minor in Mathematics.",
+      "I have a profound interest in machine learning, operating",
+      "systems, full-stack development, and everything in between."
+    ],
+    "email_button": "Say hello to me!"
+  },
+  "about_me": {
+    "section": {
+      "enable_section": true,
+      "title": "~/About",
+      "navbar_name": "/About",
+      "description": "Brief information about me and some of my interests."
+    },
+    "headShotUrl": "../assets/portrait.png",
+    "bio": [
+      "I am currently studying computer science at St. Mary's University with a focus in computer science with a minor in mathematics. Recently, I was an undergrad research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
+      "I have a profound interest in numerous types of software development such as machine learning, operating systems, and especially in full-stack development. I'm a huge desk setup and PC enthusiast. In my free time, I enjoy playing/analyzing chess games, online window shopping, thrifting, and playing Minecraft multiplayer servers."
+    ],
+    "skills_caption": "Some technologies I've worked with:",
+    "skills": [
+      "JavaScript ES6+",
+      "React.js",
+      "Node.js",
+      "HTML & CSS",
+      "Python 3",
+      "Ubuntu LTS & Git"
+    ]
+  },
+  "academics": {
+    "section": {
+      "enable_section": true,
+      "title": "~/Education",
       "navbar_name": "/Academics",
-			"description": "Courses that I have completed or am on track to complete. Current GPA: 3.24"
-		},
-		"general": {
-			"school": "St. Mary's University",
-			"degree": "Bachelor of Science in Computer Science",
-			"start_year": 2021,
-			"end_year": 2025
-		},
-		"years": [{
-				"year": 2021,
-				"semester": "Fall",
-				"courses": [{
-						"abbreviation": "CS 1310",
-						"name": "C Programming I",
-						"credits": 3.0
-					},
-					{
-						"abbreviation": "MT 1411",
-						"name": "Pre Calculus",
-						"credits": 4.0
-					},
-					{
-						"abbreviation": "EN 1311",
-						"name": "Rhetoric and Composition",
-						"credits": 3.0
-					},
-					{
-						"abbreviation": "PL 1301",
-						"name": "Introduction to Philosophy",
-						"credits": 3.0
-					}
-				]
-			},
-			{
-				"year": 2022,
-				"semester": "Spring",
-				"courses": [{
-						"abbreviation": "CS102",
-						"name": "C Programming II",
-						"credits": 3.0
-					},
-					{
-						"abbreviation": "CS 3300",
-						"name": "Intro to Data Analytics Python Programming I",
-						"credits": 3.0
-					},
-					{
-						"abbreviation": "MT 2412",
-						"name": "Calculus I",
-						"credits": 4.0
-					},
-					{
-						"abbreviation": "FYE 1301",
-						"name": "First Year Seminar",
-						"credits": 3.0
-					},
-					{
-						"abbreviation": "MT 2412",
-						"name": "Multicultural American Lit",
-						"credits": 3.0
-					}
-				]
-			},
-			{
-				"year": 2022,
-				"semester": "Fall",
-				"courses": [
-				  {
-					"abbreviation": "CS 2315",
-					"name": "Algorithms and Data Structure",
-					"credits": 3.0
-				  },
-				  {
-					"abbreviation": "CS 2313",
-					"name": "Object Oriented Programming I",
-					"credits": 3.0
-				  },
-				  {
-					"abbreviation": "CS 2110",
-					"name": "Sophomore CS Seminar",
-					"credits": 1.0
-				  },
-				  {
-					"abbreviation": "CM 1341",
-					"name": "Intro to Human Communication",
-					"credits": 3.0
-				  },
-				  {
-					"abbreviation": "AR 1300",
-					"name": "Concepts in Visual Arts",
-					"credits": 3.0
-				  }
-				]
-			  },
-			  {
-				"year": 2023,
-				"semester": "Spring",
-				"courses": [
-				  {
-					"abbreviation": "CS 2350",
-					"name": "Computer Architecture",
-					"credits": 3.0
-				  },
-				  {
-					"abbreviation": "CS 2323",
-					"name": "Object Oritented Programming II",
-					"credits": 3.0
-				  },
-				  {
-					"abbreviation": "CS 4375",
-					"name": "Advanced Topics (Python Data Analytics)",
-					"credits": 3.0
-				  },
-				  {
-					"abbreviation": "MT 2323",
-					"name": "Discrete Math Structures",
-					"credits": 3.0
-				  },
-				  {
-					"abbreviation": "TH 1301",
-					"name": "Introduction to Thelogy",
-					"credits": 3.0
-				  },
-				  {
-					"abbreviation": "AC 2301",
-					"name": "Financial Accounting",
-					"credits": 3.0
-				  }
-				]
-			}
-		]
-	},
-	"experience": {
-		"section": {
-		  "enable_section": true,
-		  "title": "~/Experience",
+      "description": "Courses that I have completed or am on track to complete. Current GPA: 3.24"
+    },
+    "general": {
+      "school": "St. Mary's University",
+      "degree": "Bachelor of Science in Computer Science",
+      "start_year": 2021,
+      "end_year": 2025
+    },
+    "years": [
+      {
+        "year": 2021,
+        "semester": "Fall",
+        "courses": [
+          {
+            "abbreviation": "CS 1310",
+            "name": "C Programming I",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "MT 1411",
+            "name": "Pre Calculus",
+            "credits": 4.0
+          },
+          {
+            "abbreviation": "EN 1311",
+            "name": "Rhetoric and Composition",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "PL 1301",
+            "name": "Introduction to Philosophy",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "semester": "Spring",
+        "courses": [
+          {
+            "abbreviation": "CS102",
+            "name": "C Programming II",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "CS 3300",
+            "name": "Intro to Data Analytics Python Programming I",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "MT 2412",
+            "name": "Calculus I",
+            "credits": 4.0
+          },
+          {
+            "abbreviation": "FYE 1301",
+            "name": "First Year Seminar",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "MT 2412",
+            "name": "Multicultural American Lit",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "semester": "Fall",
+        "courses": [
+          {
+            "abbreviation": "CS 2315",
+            "name": "Algorithms and Data Structure",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "CS 2313",
+            "name": "Object Oriented Programming I",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "CS 2110",
+            "name": "Sophomore CS Seminar",
+            "credits": 1.0
+          },
+          {
+            "abbreviation": "CM 1341",
+            "name": "Intro to Human Communication",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "AR 1300",
+            "name": "Concepts in Visual Arts",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "semester": "Spring",
+        "courses": [
+          {
+            "abbreviation": "CS 2350",
+            "name": "Computer Architecture",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "CS 2323",
+            "name": "Object Oritented Programming II",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "CS 4375",
+            "name": "Advanced Topics (Python Data Analytics)",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "MT 2323",
+            "name": "Discrete Math Structures",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "TH 1301",
+            "name": "Introduction to Thelogy",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "AC 2301",
+            "name": "Financial Accounting",
+            "credits": 3.0
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "section": {
+      "enable_section": true,
+      "title": "~/Experience",
       "navbar_name": "/Experience",
-		  "description": "Positions, team projects, or organizations I am/have been a part of."
-		},
-		"experience_items": [
-		  {
-			"organization": "McNair STMU",
-			"title": "Research Intern",
-			"start_date": "May 2023",
-			"end_date": " July 2023",
-			"description": [
-			  "As an undergraduate research intern in the McNair Program, I had the opportunity to conduct extensive research and work on a challenging project: developing a coding translator. I built a parser, lexer, and semantic analyzer module to translate my custom code into assembly language for a virtual machine.",
-			  "Collaborating closely with my mentors, I gained invaluable guidance, refining my development skills and deepening my understanding of language design principles, including compiler design methodologies. This experience has equipped me with practical knowledge and hands-on experience in building parsers, lexers, and semantic analyzer/code generator modules while also enhancing my proficieny in fast-paced environments and ensuring that I can deliver project deliverables on time with efficiency and accuracy."
-			]
-		  },
-		  {
-			"organization": "Apple Corp",
-			"title": "SWE Intern",
-			"start_date": "08/2022",
-			"end_date": "10/2022",
-			"description": [
-			  "What I did at Apple was that I...",
-			  "I also ate apples"
-			]
-		  },
-		  {
-			"organization": "Meta LLC",
-			"title": "Data Engineer",
-			"start_date": "08/2022",
-			"end_date": "10/2022",
-			"description": [
-			  "What I did at Meta/Facebook book was...",
-			  "I also read books"
-			]
-		  },
-		  {
-			"organization": "Pintrest CO",
-			"title": "Intern",
-			"start_date": "08/2022",
-			"end_date": "10/2022",
-			"description": [
-			  "My duties at Pintrest were to...",
-			  "I also played video games on my phone"
-			]
-		  }
-		]
-	},
-	"projects": {
-		"section": {
-		  "enable_section": true,
-		  "title": "~/Projects",
+      "description": "Positions, team projects, or organizations I am/have been a part of."
+    },
+    "experience_items": [
+      {
+        "organization": "McNair STMU",
+        "title": "Research Intern",
+        "start_date": "May 2023",
+        "end_date": " July 2023",
+        "description": [
+          "Conducted thorough undergraduate research on compiler design and high-level to low-level language translation.",
+          "Developed a lightweight translator by building a parser, lexer, and semantic analyzer module to convert custom code into assembly language for a virtual machine.",
+          "Collaborated closely with mentors to refine development skills and deepen understanding of language design principles and compiler design methodologies."
+        ]
+      },
+      {
+        "organization": "NP Engagement",
+        "link": "https://npengagement.com",
+        "title": "Web Master Intern",
+        "start_date": "August 2022",
+        "end_date": "November 2022",
+        "description": [
+          "NP Engagement is a San Antonio public relations firm that I worked for that was partnered with dozens of real estate companies, resturants, and local businesses.",
+          "My responsibilities included building and designing websites using wordpress while also integrating custom API scripts for specific client needs.",
+          "Maintained and updated dozens of partered business websites and online services.",
+          "Collaborated with a team to enhance the growth of clients' businesses and traffic."
+        ]
+      },
+      {
+        "organization": "Infinite Loops",
+        "title": "Club Vice President",
+        "start_date": "May 2022",
+        "end_date": " April 2023",
+        "description": [
+          "Supported the president in all aspects of club leadership, including meeting planning and execution, task delegation, and activity organization.",
+          "Managed meeting presentations and oversaw the work of other officers and club members.",
+          "Oversaw the organization's app development team where we created a Dart application to display top student favorite locations."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "section": {
+      "enable_section": true,
+      "title": "~/Projects",
       "navbar_name": "/Projects",
-		  "description": "Some of my most recent or past favorite creations or work."
-		},
-		"project_items": [
-		  {
-			"use_git_api": false,
-			"github_link": "https://github.com/your-username/project-one",
-			"project_name": "Custom Lang Translator",
-			"description": "A Python-based language translator for converting my custom language \"K-Lang\" to assembly language for a virtual machine.",
-			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
-			"start_date": "Dec 2022",
-			"end_date": "Jan 2023",
-			"links": [
-			  {
-          "href": "https://github.com/KevinTrinh1227/Custom-Lang-Translator",
-          "icon": "FaGithub",
-          "data_tooltip": "Visit GitHub Repo"
-        },
-        {
-          "href": "../../public/assets/McNairPublishedPaper.pdf",
-          "icon": "FaFilePdf",
-          "data_tooltip": "View Paper"
-        }
-			]
-		  },
-		  {
-			"use_git_api": false,
-			"github_link": "https://github.com/your-username/project-two",
-			"project_name": "Hycord Bot",
-			"description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Ultimate Hypixel Discord bot.",
-			"resources_used": ["Python", "Discord.py", "Hypixel API"],
-			"start_date": "Dec 2022",
-			"end_date": "Jan 2023",
-			"links": [
-			  {
-          "href": "https://linktwo.com",
-          "icon": "FaGithub",
-          "data_tooltip": "Visit Docs Page"
-        },
-        {
-          "href": "https://linktwo.com",
-          "icon": "FaDownload",
-          "data_tooltip": "Visit Docs Page"
-        }
-			]
-		  },
-		  {
-			"use_git_api": false,
-			"github_link": "https://github.com/your-username/project-two",
-			"project_name": "Project Two",
-			"description": "A description of the project. Something something something does this and that super duper well done. Something something did that and this.",
-			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
-			"start_date": "Dec 2022",
-			"end_date": "Jan 2023",
-			"links": [
-			  {
-				"href": "https://linktwo.com",
-				"icon": "FaGithub",
-				"data_tooltip": "Visit Docs Page"
-			  }
-			]
-		  },
-		  {
-			"use_git_api": false,
-			"github_link": "https://github.com/your-username/project-two",
-			"project_name": "Project Two",
-			"description": "A description of the project. Something something something does this and that super duper well done.",
-			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
-			"start_date": "Dec 2022",
-			"end_date": "Jan 2023",
-			"links": [
-			  {
-          "href": "https://linktwo.com",
-          "icon": "FaGithub",
-          "data_tooltip": "Visit Docs Page"
-        }
-			]
-		  },
-		  {
-			"use_git_api": false,
-			"github_link": "https://github.com/your-username/project-two",
-			"project_name": "Project Two",
-			"description": "A description of the project. Something something something does this and that super duper well done.",
-			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
-			"start_date": "Dec 2022",
-			"end_date": "Jan 2023",
-			"links": [
-			  {
-          "href": "https://linktwo.com",
-          "icon": "FaGithub",
-          "data_tooltip": "Visit Docs Page"
-        }
-			]
-		  },
-		  {
-			"use_git_api": false,
-			"github_link": "https://github.com/your-username/project-three",
-			"project_name": "Project Three",
-			"description": "A description of the project. Something something something does this and that super duper well done.",
-			"resources_used": ["Tool 1", "Tool 2", "Tool 3"],
-			"start_date": "Dec 2022",
-			"end_date": "Jan 2023",
-			"links": [
-			  {
-          "href": "https://linktwo.com",
-          "icon": "FaGithub",
-          "data_tooltip": "Visit Docs Page"
-        }
-			]
-		  }
-		]
+      "description": "Some of my most recent or past favorite creations or work."
+    },
+    "project_items": [
+      {
+        "use_git_api": false,
+        "github_link": "https://github.com/your-username/project-one",
+        "project_name": "Custom Lang Translator",
+        "description": "A Python-based language translator for converting my custom language \"K-Lang\" to assembly language for a virtual machine.",
+        "resources_used": ["Tool 1", "Tool 2", "Tool 3"],
+        "start_date": "Dec 2022",
+        "end_date": "Jan 2023",
+        "links": [
+          {
+            "href": "https://github.com/KevinTrinh1227/Custom-Lang-Translator",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://publuu.com/flip-book/247627/586254",
+            "icon": "FaFilePdf",
+            "data_tooltip": "View Paper"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "github_link": "https://github.com/KevinTrinh1227/Hycord-Bot",
+        "project_name": "Hycord Bot",
+        "description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Ultimate Hypixel Discord bot.",
+        "resources_used": ["Python", "Discord.py", "Hypixel API"],
+        "start_date": "Dec 2022",
+        "end_date": "Jan 2023",
+        "links": [
+          {
+            "href": "https://github.com/KevinTrinh1227/Hycord-Bot/archive/main.zip",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Information Page"
+          },
+          {
+            "href": "https://github.com/KevinTrinh1227/Hycord-Bot",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://github.com/KevinTrinh1227/Hycord-Bot/archive/main.zip",
+            "icon": "FaDownload",
+            "data_tooltip": "Download Project"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "github_link": "https://github.com/KevinTrinh1227/Prize-Pick-Predications",
+        "project_name": "Prize Pick Predictions",
+        "description": "Linear regression Flask application that shows recommendations for sports betting on Prize Picks using machine learning.",
+        "resources_used": ["Flask", "Python", "HTML", "CSS"],
+        "start_date": "Dec 2022",
+        "end_date": "Jan 2023",
+        "links": [
+          {
+            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predications",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "github_link": "",
+        "project_name": "STMU Yelp",
+        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. Made with a team of 8 students.",
+        "resources_used": ["Dart", "Flutter"],
+        "start_date": "Sept 2022",
+        "end_date": "May 2023",
+        "links": [
+          {
+            "href": "https://github.com/sonono-no/Stmu-Yelp",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "github_link": "",
+        "project_name": "Website Portfolio V1",
+        "description": "The first iteration of my personal protfolio website to house my projects, accomplishments, and relevant career information.",
+        "resources_used": ["HTML", "CSS", "JS"],
+        "start_date": "Feb 2022",
+        "end_date": "Sept 2023",
+        "links": [
+          {
+            "href": "https://github.com/KevinTrinh1227/Trinh",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "github_link": "",
+        "project_name": "The Fall Game",
+        "description": "Small game project was inspired by a mini-game I used to play called the dropper. Project was to enhance my understandings of game development.",
+        "resources_used": ["C#", "Unity Game Engine", "Web GL"],
+        "start_date": "Nov 2019",
+        "end_date": "Dec 2019",
+        "links": [
+          {
+            "href": "https://kevintrinh-v1.netlify.app/projects/thefall",
+            "icon": "FiExternalLink",
+            "data_tooltip": "View Live Project"
+          },
+          {
+            "href": "https://github.com/KevinTrinh1227/The-Fall",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "line_one": "Built & designed by",
+    "copyright_line": "All rights reserved."
   }
 }
