@@ -297,7 +297,7 @@
         "use_git_api": false,
         "github_link": "https://github.com/KevinTrinh1227/Prize-Pick-Predications",
         "project_name": "Prize Pick Predictions",
-        "description": "Linear regression Flask application that shows recommendations for sports betting on Prize Picks using machine learning.",
+        "description": "Linear regression Flask application that shows recommendations for sports betting on Prize Picks using a regression line.",
         "resources_used": ["Flask", "Python", "HTML", "CSS"],
         "start_date": "Dec 2022",
         "end_date": "Jan 2023",
