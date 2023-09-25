@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import contentData from "../../content.json";
+import Fade from "react-reveal/Fade";
 
 const WorkExperience = () => {
   const { experience } = contentData;
@@ -49,15 +50,17 @@ const WorkExperience = () => {
                 {experienceItems[activeJobIndex].start_date} -{" "}
                 {experienceItems[activeJobIndex].end_date}
               </h4>
-              <ul>
-                {experienceItems[activeJobIndex].description.map(
-                  (paragraph, paraIndex) => (
-                    <li className="active" key={paraIndex}>
-                      {paragraph}
-                    </li>
-                  )
-                )}
-              </ul>
+              <Fade bottom cascade>
+                <ul>
+                  {experienceItems[activeJobIndex].description.map(
+                    (paragraph, paraIndex) => (
+                      <li className="active" key={paraIndex}>
+                        {paragraph}
+                      </li>
+                    )
+                  )}
+                </ul>
+              </Fade>
             </div>
           </div>
         </div>

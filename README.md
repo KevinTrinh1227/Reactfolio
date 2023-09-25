@@ -12,9 +12,9 @@
 
 ## 📌 Important Information
 
-This project's native machine & version: Linux OS (Ubuntu LTS) using NVM with Node.js v16.20.2
+This project recycles components from V1 while also adapting to a new theme and major UI changes inspired by this [DEMO](https://steam-portfolio-demo.vercel.app/).
 
-This project is simply a revamped version of my [kevintrinh-v1](https://www.kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, UI changes, bug fixes, and more! This project is fully open source and I encourage anyone that would like to, contribute to the project as well. This iteration continues the simplistic & minimalistic approach to the same "one page one scroll" design philosophy (same from V1).
+This project is simply a revamped version of my [kevintrinh-v1](https://www.kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, Significant UI changes, bug fixes, and much more! This project is fully open source and I encourage anyone interested, to contribute to the project as well. This iteration continues the simplistic approach to the same "one page one scroll" design philosophy as V1.
 
 For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything mainly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
 

@@ -248,36 +248,15 @@
     "project_items": [
       {
         "use_git_api": false,
-        "github_link": "https://github.com/your-username/project-one",
-        "project_name": "Custom Lang Translator",
-        "description": "A Python-based language translator for converting my custom language \"K-Lang\" to assembly language for a virtual machine.",
-        "resources_used": ["Tool 1", "Tool 2", "Tool 3"],
-        "start_date": "Dec 2022",
-        "end_date": "Jan 2023",
-        "links": [
-          {
-            "href": "https://github.com/KevinTrinh1227/Custom-Lang-Translator",
-            "icon": "FaGithub",
-            "data_tooltip": "Visit GitHub Repo"
-          },
-          {
-            "href": "https://publuu.com/flip-book/247627/586254",
-            "icon": "FaFilePdf",
-            "data_tooltip": "View Paper"
-          }
-        ]
-      },
-      {
-        "use_git_api": false,
         "github_link": "https://github.com/KevinTrinh1227/Hycord-Bot",
         "project_name": "Hycord Bot",
-        "description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Ultimate Hypixel Discord bot.",
+        "description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. A versatile Hypixel Discord bot.",
         "resources_used": ["Python", "Discord.py", "Hypixel API"],
         "start_date": "Dec 2022",
-        "end_date": "Jan 2023",
+        "end_date": "Present",
         "links": [
           {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Bot/archive/main.zip",
+            "href": "https://hycord.netlify.app",
             "icon": "FiExternalLink",
             "data_tooltip": "Information Page"
           },
@@ -295,15 +274,15 @@
       },
       {
         "use_git_api": false,
-        "github_link": "https://github.com/KevinTrinh1227/Prize-Pick-Predications",
-        "project_name": "Prize Pick Predictions",
-        "description": "Linear regression Flask application that shows recommendations for sports betting on Prize Picks using a regression line.",
-        "resources_used": ["Flask", "Python", "HTML", "CSS"],
-        "start_date": "Dec 2022",
-        "end_date": "Jan 2023",
+        "github_link": "",
+        "project_name": "Reactfolio V2",
+        "description": "The seciond iteration of my personal portfolio website utilizing React.js with GitHub API intergration. Made as a public template.",
+        "resources_used": ["React JS", "NVM", "HTML & CSS"],
+        "start_date": "Sept 2023",
+        "end_date": "Present",
         "links": [
           {
-            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predications",
+            "href": "https://github.com/KevinTrinh1227/Reactfolio",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
@@ -313,50 +292,13 @@
         "use_git_api": false,
         "github_link": "",
         "project_name": "STMU Yelp",
-        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. Made with a team of 8 students.",
-        "resources_used": ["Dart", "Flutter"],
+        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
+        "resources_used": ["Dart/Flutter", "Andriod Studio"],
         "start_date": "Sept 2022",
         "end_date": "May 2023",
         "links": [
           {
             "href": "https://github.com/sonono-no/Stmu-Yelp",
-            "icon": "FaGithub",
-            "data_tooltip": "Visit GitHub Repo"
-          }
-        ]
-      },
-      {
-        "use_git_api": false,
-        "github_link": "",
-        "project_name": "Website Portfolio V1",
-        "description": "The first iteration of my personal protfolio website to house my projects, accomplishments, and relevant career information.",
-        "resources_used": ["HTML", "CSS", "JS"],
-        "start_date": "Feb 2022",
-        "end_date": "Sept 2023",
-        "links": [
-          {
-            "href": "https://github.com/KevinTrinh1227/Trinh",
-            "icon": "FaGithub",
-            "data_tooltip": "Visit GitHub Repo"
-          }
-        ]
-      },
-      {
-        "use_git_api": false,
-        "github_link": "",
-        "project_name": "The Fall Game",
-        "description": "Small game project was inspired by a mini-game I used to play called the dropper. Project was to enhance my understandings of game development.",
-        "resources_used": ["C#", "Unity Game Engine", "Web GL"],
-        "start_date": "Nov 2019",
-        "end_date": "Dec 2019",
-        "links": [
-          {
-            "href": "https://kevintrinh-v1.netlify.app/projects/thefall",
-            "icon": "FiExternalLink",
-            "data_tooltip": "View Live Project"
-          },
-          {
-            "href": "https://github.com/KevinTrinh1227/The-Fall",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }

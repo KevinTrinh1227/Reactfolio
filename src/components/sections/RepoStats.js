@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import contentData from "../../content.json";
+import Fade from "react-reveal/Fade";
 
 const RepoStats = () => {
   const [repoData, setRepoData] = useState({});
@@ -77,31 +78,33 @@ const RepoStats = () => {
 
   return (
     <div className={`repo-stats ${hidden ? "hidden" : ""}`}>
-      <p>
-        <a
-          href={contentData.repo_stats.repo_link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Repository Name: {repoData.name}
-        </a>{" "}
-        •{" "}
-        <a
-          href={contentData.general.navbar_social_links.github}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Author: {repoData.owner?.login}
-        </a>{" "}
-        •{" "}
-        <a href={commit_link} target="_blank" rel="noreferrer">
-          Total Commits: {totalCommits}
-        </a>{" "}
-        •{" "}
-        <a href={last_commit_link} target="_blank" rel="noreferrer">
-          Last Push: {new Date(repoData.pushed_at).toLocaleString()} CST
-        </a>
-      </p>
+      <Fade top>
+        <p>
+          <a
+            href={contentData.repo_stats.repo_link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Repository Name: {repoData.name}
+          </a>{" "}
+          •{" "}
+          <a
+            href={contentData.general.navbar_social_links.github}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Author: {repoData.owner?.login}
+          </a>{" "}
+          •{" "}
+          <a href={commit_link} target="_blank" rel="noreferrer">
+            Total Commits: {totalCommits}
+          </a>{" "}
+          •{" "}
+          <a href={last_commit_link} target="_blank" rel="noreferrer">
+            Last Push: {new Date(repoData.pushed_at).toLocaleString()} CST
+          </a>
+        </p>
+      </Fade>
     </div>
   );
 };
