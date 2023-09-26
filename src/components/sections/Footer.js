@@ -1,16 +1,16 @@
 import React from "react";
 import contentData from "../../content.json";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Footer = () => {
   const general = contentData.general;
 
   return (
-    <footer>
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-12">
-            <Fade bottom>
+    <Fade triggerOnce={true}>
+      <footer>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
               <div className="copyright-box">
                 <p className="copyright">
                   {contentData.footer.line_one}{" "}
@@ -26,11 +26,11 @@ const Footer = () => {
                   {contentData.footer.copyright_line} &copy;
                 </div>
               </div>
-            </Fade>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </Fade>
   );
 };
 

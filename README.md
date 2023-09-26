@@ -12,7 +12,7 @@
 
 ## 📌 Important Information
 
-This project recycles components from V1 while also adapting to a new theme and major UI changes inspired by this [DEMO](https://steam-portfolio-demo.vercel.app/).
+This project recycles components from my old [V1 portfolio](https://www.kevintrinh-v1.netlify.app), while also adopting to a new theme and major UI changes inspired by this [DEMO](https://steam-portfolio-demo.vercel.app/). Native development machine: Linux OS (Ubuntu LTS) using NVM & Node v16.20.2.
 
 This project is simply a revamped version of my [kevintrinh-v1](https://www.kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, Significant UI changes, bug fixes, and much more! This project is fully open source and I encourage anyone interested, to contribute to the project as well. This iteration continues the simplistic approach to the same "one page one scroll" design philosophy as V1.
 

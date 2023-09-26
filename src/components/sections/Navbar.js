@@ -1,11 +1,11 @@
 import React from "react";
 import contentData from "../../content.json";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Navbar = () => {
   return (
     <div className="navlist">
-      <Fade bottom cascade>
+      <Fade cascade damping={0.2} triggerOnce={true}>
         <ul>
           <li>
             <a href="https://www.kevintrinh.dev">/Home</a>

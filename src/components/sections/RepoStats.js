@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import contentData from "../../content.json";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const RepoStats = () => {
   const [repoData, setRepoData] = useState({});
@@ -78,7 +78,7 @@ const RepoStats = () => {
 
   return (
     <div className={`repo-stats ${hidden ? "hidden" : ""}`}>
-      <Fade top>
+      <Fade direction="down" triggerOnce={true}>
         <p>
           <a
             href={contentData.repo_stats.repo_link}

@@ -2,7 +2,7 @@ import React from "react";
 import contentData from "../../content.json";
 import { FaGithub, FaDownload, FaFilePdf } from "react-icons/fa";
 import { FiExternalLink, FiFolder } from "react-icons/fi";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const iconComponents = {
   FaGithub: FaGithub,
@@ -20,23 +20,30 @@ const SideProjects = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <div className="title-box text-center">
-              <h3 className="title-a" id="projects">
-                {contentData.projects.section.title}
-                <div className="line-mf"></div>
-              </h3>
-              <p className="subtitle-a">
-                {contentData.projects.section.description}
-              </p>
-            </div>
+            <Fade triggerOnce={true}>
+              <div className="title-box text-center">
+                <h3 className="title-a" id="projects">
+                  {contentData.projects.section.title}
+                  <div className="line-mf"></div>
+                </h3>
+                <p className="subtitle-a">
+                  {contentData.projects.section.description}
+                </p>
+              </div>
+            </Fade>
           </div>
         </div>
 
         <div className="col-sm-12">
-          <Fade bottom cascade>
-            <div className="row">
-              {projects.project_items.map((project, index) => (
-                <div className="col-md-4" key={index}>
+          <div className="row">
+            {projects.project_items.map((project, index) => (
+              <div className="col-md-4" key={index}>
+                <Fade
+                  delay={index * 200}
+                  direction="up"
+                  cascade={false}
+                  triggerOnce={true}
+                >
                   <div className="card card-recentprojects">
                     <div className="card-body">
                       <div className="card-category-box"></div>
@@ -75,10 +82,10 @@ const SideProjects = () => {
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
-          </Fade>
+                </Fade>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

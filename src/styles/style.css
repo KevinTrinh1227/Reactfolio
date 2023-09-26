@@ -543,7 +543,7 @@ th {
 
 .card-recentprojects {
   background: var(--navy);
-  color: #d5d8dc;
+  color: var(--bone-white);
   border-radius: 8px;
 }
 
@@ -961,6 +961,7 @@ li {
     padding-right: 8.5rem;
     padding-bottom: 8rem;
     text-align: right;
+    z-index: 999;
   }
 
   .navlist ul li {
@@ -983,7 +984,7 @@ li {
   .linkbar {
     position: fixed;
     right: 9rem;
-    top: 12rem;
+    top: 5rem;
     padding: 10px;
     width: 50px;
     z-index: 1;
@@ -998,7 +999,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 4.25rem;
   }
 
   .linkbar nav {
@@ -1008,8 +1009,7 @@ li {
 
   .linkbar a {
     color: var(--smoke);
-    font-size: 1.3rem;
-    padding: 0 10px;
+    font-size: 1.4rem;
   }
 }
 
