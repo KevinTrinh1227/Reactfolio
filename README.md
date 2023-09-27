@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.kevintrinh.dev" target="_blank">
+  <a href="https://kevintrinh.dev" target="_blank">
     <img alt="Fav Icon Png" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/readme-icon.png" width="100"/>
   </a>
 </p>
@@ -7,10 +7,10 @@
   kevintrinh.dev - v2
 </h1>
 <p align="center">
-  The Second iteration of <a href="https://www.kevintrinh.dev" target="_blank">kevintrinh.dev</a> built with React.js with GitHub API integration.
+  The Second iteration of <a href="https://kevintrinh.dev" target="_blank">kevintrinh.dev</a> built with React.js with GitHub API integration.
 </p>
 
-<a href="https://www.kevintrinh.dev" target="_blank">
+<a href="https://kevintrinh.dev" target="_blank">
   <img alt="Screen Shot from 9-24-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot.png">
 </a>
 
