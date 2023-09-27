@@ -10,7 +10,7 @@ import SideProjects from "./components/sections/SideProjects";
 import Footer from "./components/sections/Footer";
 import Error404 from "./components/sections/Error404";
 
-import { Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./styles/style.css";
 import content from "./content.json";
@@ -22,20 +22,27 @@ function App() {
   const { intro_screen, about_me, academics, experience, projects } = content;
 
   return (
-    <div className="App">
-      <Route path="/">
-        <RepoStats />
-        <Linkbar />
-        <Navbar />
-        {intro_screen.section.enable_section && <Intro />}
-        {about_me.section.enable_section && <About />}
-        {academics.section.enable_section && <Education />}
-        {experience.section.enable_section && <WorkExperience />}
-        {projects.section.enable_section && <SideProjects />}
-        <Footer />
-      </Route>
-      <Route path="*" element={<Error404 />} />
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div>
+              <Navbar />
+              <RepoStats />
+              <Linkbar />
+              {intro_screen.section.enable_section && <Intro />}
+              {about_me.section.enable_section && <About />}
+              {academics.section.enable_section && <Education />}
+              {experience.section.enable_section && <WorkExperience />}
+              {projects.section.enable_section && <SideProjects />}
+              <Footer />
+            </div>
+          }
+        ></Route>
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </Router>
   );
 }
 

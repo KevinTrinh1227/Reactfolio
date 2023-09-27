@@ -1036,3 +1036,38 @@ footer .credits {
 footer .credits a {
   color: var(--smoke);
 }
+
+/*--------------------------------------------------------------
+# 404 ERROR PAGE
+--------------------------------------------------------------*/
+
+.error-section {
+  background-color: var(--dark-navy);
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.error-section h1 {
+  color: var(--light-lime);
+  text-align: center;
+}
+
+.error-section p {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.error-section a {
+  text-align: center;
+  color: var(--bone-white);
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.error-section a:hover {
+  color: var(--smoke);
+  transition: all 1s ease;
+}

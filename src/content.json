@@ -309,5 +309,9 @@
   "footer": {
     "line_one": "Built & designed by",
     "copyright_line": "All rights reserved."
+  },
+  "error_page": {
+    "title": "Error 404",
+    "description": "The page you are looking for does not exist. Chose one of the following links to continue."
   }
 }
