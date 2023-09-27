@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://kevintrinh.dev" target="_blank">
+  <a href="https://www.kevintrinh.dev" target="_blank">
     <img alt="Fav Icon Png" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/readme-icon.png" width="100"/>
   </a>
 </p>
@@ -7,7 +7,7 @@
   kevintrinh.dev - v2
 </h1>
 <p align="center">
-  The Second iteration of <a href="https://kevintrinh.dev" target="_blank">kevintrinh.dev</a> built with React.js with GitHub API integration.
+  The Second iteration of <a href="https://www.kevintrinh.dev" target="_blank">kevintrinh.dev</a> built with React.js with GitHub API integration.
 </p>
 
 <a href="https://kevintrinh.dev" target="_blank">
@@ -16,9 +16,9 @@
 
 ## 📌 Important Information
 
-This project recycles components from my old [Portfolio-V1](https://www.kevintrinh-v1.netlify.app), while also adopting a new UI and theme inspired by this [DEMO](https://steam-portfolio-demo.vercel.app/). Project native version: Node v16.20.2.
+This project recycles components from my old [Portfolio-V1](https://kevintrinh-v1.netlify.app), while also adopting a new UI and theme inspired by this [DEMO](https://steam-portfolio-demo.vercel.app/). Project native version: Node v16.20.2.
 
-This project is simply a revamped version of my [kevintrinh-v1](https://www.kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, Significant UI changes, bug fixes, and much more! This project is fully open source and I encourage anyone interested, to contribute to the project as well. This iteration continues the simplistic approach to the same "one page one scroll" design philosophy as V1.
+This project is simply a revamped version of my [kevintrinh-v1](https://kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, Significant UI changes, bug fixes, and much more! This project is fully open source and I encourage anyone interested, to contribute to the project as well. This iteration continues the simplistic approach to the same "one page one scroll" design philosophy as V1.
 
 For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything mainly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
 
