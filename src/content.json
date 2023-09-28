@@ -276,7 +276,7 @@
         "use_git_api": false,
         "github_link": "",
         "project_name": "Reactfolio V2",
-        "description": "The seciond iteration of my personal portfolio website utilizing React.js with GitHub API intergration. Made as a public template.",
+        "description": "The second iteration of my personal portfolio website utilizing React.js with GitHub API intergration. Made as a public template.",
         "resources_used": ["React JS", "NVM", "HTML & CSS"],
         "start_date": "Sept 2023",
         "end_date": "Present",
