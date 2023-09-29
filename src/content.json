@@ -248,7 +248,7 @@
     "project_items": [
       {
         "use_git_api": false,
-        "github_link": "https://github.com/KevinTrinh1227/Hycord-Bot",
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Bot",
         "project_name": "Hycord Bot",
         "description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. A versatile Hypixel Discord bot.",
         "resources_used": ["Python", "Discord.py", "Hypixel API"],
@@ -256,7 +256,7 @@
         "end_date": "Present",
         "links": [
           {
-            "href": "https://hycord.netlify.app",
+            "href": "https://www.hycord.net",
             "icon": "FiExternalLink",
             "data_tooltip": "Information Page"
           },
@@ -274,7 +274,7 @@
       },
       {
         "use_git_api": false,
-        "github_link": "",
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Reactfolio",
         "project_name": "Reactfolio V2",
         "description": "The second iteration of my personal portfolio website utilizing React.js with GitHub API intergration. Made as a public template.",
         "resources_used": ["React JS", "NVM", "HTML & CSS"],
@@ -290,7 +290,7 @@
       },
       {
         "use_git_api": false,
-        "github_link": "",
+        "api_github_repo_link": "",
         "project_name": "STMU Yelp",
         "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
         "resources_used": ["Dart/Flutter", "Andriod Studio"],

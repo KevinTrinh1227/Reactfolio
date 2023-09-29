@@ -2,6 +2,22 @@ import React from "react";
 import contentData from "../../content.json";
 import { Fade } from "react-awesome-reveal";
 
+/* ==========================================
+*   JSON Template Example
+*  ==========================================
+
+  "footer": {
+    "line_one": "Built & designed by",
+    "copyright_line": "All rights reserved."
+  },
+
+  * "line_one": "First line in footer message"
+  * "copyright_line": "Second line in footer message"
+   
+  NOTE: line_one will use the first, middle and last name declared in the general section of json file. If you dont have a middle name you can leave it as a blank ""
+
+*/
+
 const Footer = () => {
   const general = contentData.general;
 

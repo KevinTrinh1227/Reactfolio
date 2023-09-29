@@ -2,6 +2,24 @@ import React, { useState, useEffect } from "react";
 import contentData from "../../content.json";
 import { Fade } from "react-awesome-reveal";
 
+/* ==========================================
+*   JSON Template Example
+*  ==========================================
+
+  "repo_stats": {
+    "section": {
+      "enable_section": true
+    },
+    "repo_link": "https://github.com/KevinTrinh1227/Reactfolio",
+    "api_link": "https://api.github.com/repos/KevinTrinh1227/Reactfolio"
+  },
+
+  * "enable_section": <true or false> to enable/disable section
+  * "repo_link": "Github link to your repo of choice (github.com/...)"
+  * "api_link": "api link to that same repo (api.github.com/repos/...)"
+
+*/
+
 const RepoStats = () => {
   const [repoData, setRepoData] = useState({});
   const [hidden, setHidden] = useState(false);

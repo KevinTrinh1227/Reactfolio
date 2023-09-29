@@ -1,9 +1,72 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import contentData from "../../content.json";
 import { FaGithub, FaDownload, FaFilePdf } from "react-icons/fa";
 import { FiExternalLink, FiFolder } from "react-icons/fi";
 import { Fade } from "react-awesome-reveal";
 
+/* ==========================================
+*   JSON Template Example
+*  ==========================================
+
+  "projects": {
+    "section": {
+      "enable_section": true,         
+      "title": "~/Projects",         
+      "navbar_name": "/Projects",     
+      "description": "Some of my most recent or past favorite creations or work."
+    },
+
+    * "enable_section": <true or false> to enable/disable section
+    * "title": "Is what is displayed on the h3 tag to distinguish the section"
+    * "navbar_name": "Is what is displayed on the navbar"
+    * "description": "subtitle below the title element to distinguish the section"
+
+
+    "project_items": [
+      {
+        "use_git_api": false,
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Bot",
+        "project_name": "Hycord Bot",
+        "description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. A versatile Hypixel Discord bot.",
+        "resources_used": ["Python", "Discord.py", "Hypixel API"],
+        "start_date": "Dec 2022",
+        "end_date": "Present",
+        "links": [
+          {
+            "href": "https://www.hycord.net",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Information Page"
+          },
+          {
+            "href": "https://github.com/KevinTrinh1227/Hycord-Bot",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://github.com/KevinTrinh1227/Hycord-Bot/archive/main.zip",
+            "icon": "FaDownload",
+            "data_tooltip": "Download Project"
+          }
+        ]
+      }
+    ]
+
+    * "use_git_api": <true or false> if true, the app will get your project repo name/title, description, and resources/languages used from the git API, if false then it will use data content inside json.
+    * "api_github_repo_link": "API link of the repo (api.github.com/repos/...)"
+
+    * links: [{link1}, {link2}, {link3}, ...]
+    * Inside the list is a list of objects that represent a anchor tag for each external link   you want your project to display.
+
+    * "href": "link to your external link"
+    * "icon": "name of your react icon"
+    * "data_tooltip": "message that displays when a user hovers over item"
+     
+    [!] NOTE: make sure the icon your using is 1. Imported, and 2. Inside the const iconComponents object variable.
+
+  } */
+
+// icons used will be listed below
+// make sure the react icon is imported
 const iconComponents = {
   FaGithub: FaGithub,
   FaDownload: FaDownload,
@@ -13,7 +76,52 @@ const iconComponents = {
 };
 
 const SideProjects = () => {
-  const projects = contentData.projects;
+  const [projectData, setProjectData] = useState({});
+  const [projectLanguages, setProjectLanguages] = useState({});
+
+  useEffect(() => {
+    contentData.projects.project_items.forEach((project, index) => {
+      if (project.use_git_api) {
+        const apiUrl = project.api_github_repo_link;
+
+        fetch(apiUrl)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            return response.json();
+          })
+          .then((data) => {
+            setProjectData((prevData) => ({
+              ...prevData,
+              [index]: data, // Store the data with an index as the key
+            }));
+
+            // Fetch languages data
+            const languagesUrl = data.languages_url;
+            fetch(languagesUrl)
+              .then((response) => {
+                if (!response.ok) {
+                  throw new Error("Network response was not ok");
+                }
+                return response.json();
+              })
+              .then((languagesData) => {
+                setProjectLanguages((prevLanguages) => ({
+                  ...prevLanguages,
+                  [index]: Object.keys(languagesData), // Store language names as an array
+                }));
+              })
+              .catch((error) => {
+                console.error("Error fetching languages data:", error);
+              });
+          })
+          .catch((error) => {
+            console.error("Error fetching data:", error);
+          });
+      }
+    });
+  }, []);
 
   return (
     <section id="recentprojects" className="recentprojects-mf sect-pt4 route">
@@ -36,7 +144,7 @@ const SideProjects = () => {
 
         <div className="col-sm-12">
           <div className="row">
-            {projects.project_items.map((project, index) => (
+            {contentData.projects.project_items.map((project, index) => (
               <div className="col-md-4" key={index}>
                 <Fade
                   delay={index * 200}
@@ -50,11 +158,22 @@ const SideProjects = () => {
                       <h1 className="folder-icon">
                         <FiFolder />
                       </h1>
-                      <h3 className="card-title">{project.project_name}</h3>
-                      <p className="card-description">{project.description}</p>
+                      <h3 className="card-title">
+                        {project.use_git_api
+                          ? projectData[index]?.name || project.project_name
+                          : project.project_name}
+                      </h3>
+                      <p className="card-description">
+                        {project.use_git_api
+                          ? projectData[index]?.description ||
+                            project.description
+                          : project.description}
+                      </p>
                       <br />
                       <p className="resources-used">
-                        {project.resources_used.join(", ")}
+                        {project.use_git_api
+                          ? projectLanguages[index]?.join(", ") || ""
+                          : project.resources_used.join(", ")}
                       </p>
                     </div>
                     <div className="card-footer">
