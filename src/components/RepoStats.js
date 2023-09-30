@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import contentData from "../../content.json";
+import contentData from "../content.json";
 import { Fade } from "react-awesome-reveal";
 
 /* ==========================================

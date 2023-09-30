@@ -1,5 +1,5 @@
 import React from "react";
-import contentData from "../../content.json";
+import contentData from "../content.json";
 import { FaComment } from "react-icons/fa";
 import { Fade } from "react-awesome-reveal";
 

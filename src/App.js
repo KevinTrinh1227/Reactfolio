@@ -1,14 +1,14 @@
 import React from "react";
-import RepoStats from "./components/sections/RepoStats";
-import Navbar from "./components/sections/Navbar";
-import Linkbar from "./components/sections/Linkbar";
-import Intro from "./components/sections/Intro";
-import About from "./components/sections/About";
-import Education from "./components/sections/Education";
-import WorkExperience from "./components/sections/WorkExperience";
-import SideProjects from "./components/sections/SideProjects";
-import Footer from "./components/sections/Footer";
-import Error404 from "./components/sections/Error404";
+import RepoStats from "./components/RepoStats";
+import Navbar from "./components/Navbar";
+import Linkbar from "./components/Linkbar";
+import Intro from "./components/Intro";
+import About from "./components/About";
+import Education from "./components/Education";
+import WorkExperience from "./components/WorkExperience";
+import SideProjects from "./components/SideProjects";
+import Footer from "./components/Footer";
+import Error404 from "./components/Error404";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

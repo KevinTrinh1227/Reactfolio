@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import contentData from "../../content.json";
+import contentData from "../content.json";
 import { FaGithub, FaDownload, FaFilePdf } from "react-icons/fa";
 import { FiExternalLink, FiFolder } from "react-icons/fi";
 import { Fade } from "react-awesome-reveal";

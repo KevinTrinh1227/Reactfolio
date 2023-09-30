@@ -1,5 +1,5 @@
 import React from "react";
-import aboutMeJson from "../../content.json";
+import aboutMeJson from "../content.json";
 import { Fade } from "react-awesome-reveal";
 
 /* ==========================================

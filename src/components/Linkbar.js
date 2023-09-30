@@ -1,5 +1,5 @@
 import React from "react";
-import contentData from "../../content.json";
+import contentData from "../content.json";
 import { FaGithub, FaLinkedin, FaHandshake } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Fade } from "react-awesome-reveal";
