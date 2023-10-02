@@ -22,7 +22,7 @@
 
 ## 📌 Important Information
 
-This project recycles components from my old [Portfolio-V1](https://kevintrinh-v1.netlify.app), while also adopting a new UI and theme inspired by this [DEMO](https://steam-portfolio-demo.vercel.app/). Project native version: Node v16.20.2, built on Linux OS (Ubuntu LTS).
+This project recycles components from my old [Portfolio-V1](https://github.com/KevinTrinh1227/Trinh), while also adopting a new UI and theme inspired by this [DEMO](https://steam-portfolio-demo.vercel.app/). Project native version: Node v16.20.2, built on Linux OS (Ubuntu LTS).
 
 This project is a revamped version of my [Portfolio-V1](https://kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, Significant UI changes, bug fixes, and much more! This project is fully open source and I encourage anyone interested, to contribute to the project as well. This iteration continues the simplistic approach to the same "one page one scroll" design philosophy as V1.
 
