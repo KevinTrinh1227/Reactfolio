@@ -262,7 +262,7 @@ a {
 
 [data-tooltip] {
   position: relative;
-  z-index: 10; /* Increase the z-index value to ensure tooltips appear above other elements */
+  z-index: 0; /* Increase the z-index value to ensure tooltips appear above other elements */
   cursor: pointer;
 }
 
