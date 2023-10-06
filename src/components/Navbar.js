@@ -15,7 +15,7 @@ const Navbar = () => {
       enable: contentData.about_me.section.enable_section,
     },
     {
-      id: "academics",
+      id: "education",
       text: contentData.academics.section.navbar_name,
       enable: contentData.academics.section.enable_section,
     },
