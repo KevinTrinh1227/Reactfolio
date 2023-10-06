@@ -40,7 +40,13 @@ For easy use, I linked every element that makes up the app to `content.json` to 
 
 ## 🛠 set-up
 
-1. Use the correct Node version using [NVM](https://github.com/nvm-sh/nvm) (Not mandatory)
+1. Clone repository OR download the [latest release](https://github.com/KevinTrinh1227/Reactfolio/releases)
+   
+   ```sh
+   git clone https://github.com/KevinTrinh1227/Reactfolio
+   ```
+
+2. Optional: Use the correct Node version using [NVM](https://github.com/nvm-sh/nvm) (Node v16.20.2)
 
    ```sh
    nvm install 16
@@ -50,7 +56,7 @@ For easy use, I linked every element that makes up the app to `content.json` to 
    nvm alias default 16
    ```
 
-2. Install the dependencies using npm or yarn
+3. Install the dependencies using npm or yarn
 
    ```sh
    npm install
@@ -78,7 +84,7 @@ For easy use, I linked every element that makes up the app to `content.json` to 
    npm run build
    ```
 
-## 🎨 CSS color codes and fonts
+## 🎨 CSS hex color palette
 
 | Color         | Hex Code                                                             | Usage Info                 | CSS Usage              |
 | ------------- | -------------------------------------------------------------------- | -------------------------- | ---------------------- |
