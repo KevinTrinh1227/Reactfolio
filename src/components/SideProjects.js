@@ -55,13 +55,13 @@ import { Fade } from "react-awesome-reveal";
     * "api_github_repo_link": "API link of the repo (api.github.com/repos/...)"
 
     * links: [{link1}, {link2}, {link3}, ...]
-    * Inside the list is a list of objects that represent a anchor tag for each external link   you want your project to display.
+    * Inside the list is a list of objects that represent a anchor tag for each external link you want your project to display.
 
     * "href": "link to your external link"
     * "icon": "name of your react icon"
     * "data_tooltip": "message that displays when a user hovers over item"
      
-    [!] NOTE: make sure the icon your using is 1. Imported, and 2. Inside the const iconComponents object variable.
+    [!] NOTE: make sure the icon your using is 1. Imported, AND 2. Inside the const iconComponents object variable below!
 
   } */
 
@@ -155,9 +155,11 @@ const SideProjects = () => {
                   <div className="card card-recentprojects">
                     <div className="card-body">
                       <div className="card-category-box"></div>
-                      <h1 className="folder-icon">
-                        <FiFolder />
-                      </h1>
+                      <div>
+                        <h1 className="folder-icon">
+                          <FiFolder />
+                        </h1>
+                      </div>
                       <h3 className="card-title">
                         {project.use_git_api
                           ? projectData[index]?.name || project.project_name

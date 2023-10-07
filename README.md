@@ -12,8 +12,8 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained status" />
+  <img src="https://api.netlify.com/api/v1/badges/bda950e2-c382-4756-8f7c-129785602a59/deploy-status" alt="Website status" /> 
   <img src="https://img.shields.io/github/v/release/KevinTrinh1227/Reactfolio.svg" alt="Release badge" />
-  <img src="https://img.shields.io/website.svg?down_color=red&down_message=down&up_color=green&up_message=up&url=http%3A%2F%2Fkevintrinh.dev" alt="Website status" /> 
 </div>
 
 <a href="https://kevintrinh.dev" target="_blank">
@@ -41,7 +41,7 @@ For easy use, I linked every element that makes up the app to `content.json` to 
 ## 🛠 Installation & setup
 
 1. Clone repository OR download the [latest release](https://github.com/KevinTrinh1227/Reactfolio/releases)
-   
+
    ```sh
    git clone https://github.com/KevinTrinh1227/Reactfolio
    ```
@@ -70,7 +70,7 @@ For easy use, I linked every element that makes up the app to `content.json` to 
    yarn install
    ```
 
-3. Start the development server using npm or yarn
+4. Start the development server using npm or yarn
 
    ```sh
    npm start
