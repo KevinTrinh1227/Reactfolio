@@ -1034,10 +1034,16 @@ footer .copyright-box {
 }
 
 footer .credits {
-  margin-bottom: 0;
+  margin-bottom: 0.3rem;
 }
+
 footer .credits a {
   color: var(--smoke);
+}
+
+footer a:hover {
+  color: var(--white);
+  transition: color 0.5s ease-in-out;
 }
 
 /*--------------------------------------------------------------
