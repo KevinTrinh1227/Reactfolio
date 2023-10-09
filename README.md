@@ -50,7 +50,7 @@ For easy use, I linked every element that makes up the app to `content.json` to 
    cd Reactfolio
    ```
 
-2. Optional: Use the correct Node version using [NVM](https://github.com/nvm-sh/nvm) (Node v16.20.2)
+2. OPTIONAL: Use the correct Node version using [NVM](https://github.com/nvm-sh/nvm) (Node v16.20.2)
 
    ```sh
    nvm install 16
