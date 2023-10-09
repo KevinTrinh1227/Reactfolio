@@ -51,8 +51,25 @@ import { Fade } from "react-awesome-reveal";
       }
     ]
 
-    * "use_git_api": <true or false> if true, the app will get your project repo name/title, description, and resources/languages used from the git API, if false then it will use data content inside json.
+    * "use_git_api": <true or false> 
+    * If true, the app will get your project repo name/title, description, and resources/languages used from the git API, if false then it will use data content inside json.
     * "api_github_repo_link": "API link of the repo (api.github.com/repos/...)"
+    
+    * "project_name": "Name of your project" 
+    * NOTE: It will display this if use_git_api is false
+    * other wise it will match whatever is on github.
+    
+    * "description": "Your project description." 
+    * NOTE: It will display this if use_git_api is false 
+    * other wise it will match whatever is on github.
+
+    * "resources_used": ["Lang 1", "Lang 2", ...]
+    * IMPORTANT: If an item is on both the resources_used list and the github languages list, then
+    * the item will not be displayed. 
+    * Example: Your repo project says that you used: ["JavaScript", "HTML", "CSS"]
+    * Your JSON has the list: ["React.js", "NVM", "JavaScript", "HTML"]
+    * The output will be: ["React.js", "NVM", "CSS"]
+    * If you want it to only display whats on Github then set your JSON resources_used to empty []
 
     * links: [{link1}, {link2}, {link3}, ...]
     * Inside the list is a list of objects that represent a anchor tag for each external link you want your project to display.
@@ -174,7 +191,18 @@ const SideProjects = () => {
                       <br />
                       <p className="resources-used">
                         {project.use_git_api
-                          ? projectLanguages[index]?.join(", ") || ""
+                          ? [
+                              ...(projectLanguages[index] || []),
+                              ...project.resources_used,
+                            ]
+                              .filter(
+                                (item) =>
+                                  !(
+                                    projectLanguages[index]?.includes(item) &&
+                                    project.resources_used.includes(item)
+                                  )
+                              )
+                              .join(", ")
                           : project.resources_used.join(", ")}
                       </p>
                     </div>
