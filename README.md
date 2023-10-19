@@ -11,8 +11,8 @@
 </p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained status" />
   <img src="https://api.netlify.com/api/v1/badges/bda950e2-c382-4756-8f7c-129785602a59/deploy-status" alt="Website status" /> 
+  <img src="https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg" alt="Maintained status" />
   <img src="https://img.shields.io/github/v/release/KevinTrinh1227/Reactfolio.svg" alt="Release badge" />
 </div>
 
