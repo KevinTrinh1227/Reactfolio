@@ -11,7 +11,7 @@
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.5.1",
     "react": "^18.2.0",
-    "react-awesome-reveal": "^4.2.5",
+    "react-awesome-reveal": "^4.2.6",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.17.0",
