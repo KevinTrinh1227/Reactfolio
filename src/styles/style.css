@@ -13,6 +13,17 @@
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 
+/* This is for text highlight for multiple browsers */
+::-moz-selection {
+  background: var(--light-navy);
+}
+::-webkit-selection {
+  background: var(--light-navy);
+}
+::selection {
+  background: var(--light-navy);
+}
+
 body {
   background: var(--dark-navy);
   color: var(--white);

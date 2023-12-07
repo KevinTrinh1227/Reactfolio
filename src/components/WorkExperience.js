@@ -58,7 +58,7 @@ const WorkExperience = () => {
   };
 
   return (
-    <Fade>
+    <Fade triggerOnce={true}>
       <section className="Experience-section">
         <div className="container">
           <div className="row">
@@ -75,7 +75,7 @@ const WorkExperience = () => {
 
           <div className="col-sm-12">
             <div className="wrapper">
-              <Fade cascade damping={0.1} triggerOnce={true}>
+              <Fade triggerOnce={true}>
                 <ul className="indicator">
                   {experienceItems.map((job, index) => (
                     <li
@@ -98,7 +98,7 @@ const WorkExperience = () => {
                   {experienceItems[activeJobIndex].start_date} -{" "}
                   {experienceItems[activeJobIndex].end_date}
                 </h4>
-                <Fade cascade damping={0.1} triggerOnce={true}>
+                <Fade damping={0.1} triggerOnce={true}>
                   <ul>
                     {experienceItems[activeJobIndex].description.map(
                       (paragraph, paraIndex) => (
