@@ -17,13 +17,13 @@
 </div>
 
 <a href="https://kevintrinh.dev" target="_blank">
-  <img alt="Screen recording 1" src="https://github.com/KevinTrinh1227/Reactfolio/assets/48145892/dafb9ce6-330b-4b01-873d-7cd9571e0b6a">
-  <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_1.png">
+  ![e03b82dec8b07cf5a5aed39d84e12fcb](https://github.com/KevinTrinh1227/Reactfolio/assets/48145892/d5a342d5-3e49-45d1-9028-cabc663ef61a)
 </a>
 
 <details>
   <summary align="center">VIEW MORE PHOTOS HERE</summary>
     <a href="https://www.kevintrinh.dev" target="_blank">
+      <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_1.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_2.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_3.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_4.png">
