@@ -17,6 +17,7 @@
 </div>
 
 <a href="https://kevintrinh.dev" target="_blank">
+  <img alt="Screen recording 1" src="https://github.com/KevinTrinh1227/Reactfolio/assets/48145892/dafb9ce6-330b-4b01-873d-7cd9571e0b6a">
   <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_1.png">
 </a>
 
