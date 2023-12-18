@@ -37,7 +37,7 @@ This project recycles components from my old [Portfolio-V1](https://github.com/K
 
 This project is a revamped version of my [Portfolio-V1](https://kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, Significant UI changes, bug fixes, and much more! This project is fully open source and I encourage anyone interested, to contribute to the project as well. This iteration continues the simplistic approach to the same "one page one scroll" design philosophy as V1.
 
-For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything mainly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
+For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything seamlessly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
 
 ## 🛠 Installation & setup
 
