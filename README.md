@@ -17,12 +17,13 @@
 </div>
 
 <a href="https://kevintrinh.dev" target="_blank">
-  <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_1.png">
+   <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/assets/48145892/d5a342d5-3e49-45d1-9028-cabc663ef61a">
 </a>
 
 <details>
   <summary align="center">VIEW MORE PHOTOS HERE</summary>
     <a href="https://www.kevintrinh.dev" target="_blank">
+      <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_1.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_2.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_3.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_4.png">
@@ -36,7 +37,7 @@ This project recycles components from my old [Portfolio-V1](https://github.com/K
 
 This project is a revamped version of my [Portfolio-V1](https://kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, Significant UI changes, bug fixes, and much more! This project is fully open source and I encourage anyone interested, to contribute to the project as well. This iteration continues the simplistic approach to the same "one page one scroll" design philosophy as V1.
 
-For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything mainly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
+For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything seamlessly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
 
 ## 🛠 Installation & setup
 
