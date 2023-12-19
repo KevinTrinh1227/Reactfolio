@@ -27,6 +27,7 @@
 body {
   background: var(--dark-navy);
   color: var(--white);
+  cursor: default;
 }
 
 .p-r {
