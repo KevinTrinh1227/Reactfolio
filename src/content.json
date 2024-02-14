@@ -248,9 +248,9 @@
     "project_items": [
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Bot",
-        "project_name": "Hycord Bot",
-        "description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Simply, a versatile Hypixel Discord bot.",
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Client",
+        "project_name": "Hycord Client",
+        "description": "Discord.py client that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Simply, a versatile Hypixel Discord bot.",
         "resources_used": ["HTML", "Discord.py", "Hypixel API"],
         "start_date": "Dec 2022",
         "end_date": "Present",
@@ -261,12 +261,12 @@
             "data_tooltip": "Information Page"
           },
           {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Bot",
+            "href": "https://github.com/KevinTrinh1227/Hycord-Client",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           },
           {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Bot/archive/main.zip",
+            "href": "https://github.com/KevinTrinh1227/Hycord-Client/archive/main.zip",
             "icon": "FaDownload",
             "data_tooltip": "Download Project"
           }
