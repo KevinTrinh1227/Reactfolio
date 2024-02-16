@@ -214,26 +214,14 @@
       },
       {
         "organization": "NP Engagement",
-        "link": "https://npengagement.com",
         "title": "Web Master Intern",
         "start_date": "August 2022",
         "end_date": "November 2022",
         "description": [
-          "NP Engagement is a San Antonio public relations firm that I worked for that was partnered with dozens of real estate companies, resturants, and local businesses.",
-          "My responsibilities included building and designing websites using wordpress while also integrating custom API scripts for specific client needs.",
-          "Maintained and updated dozens of partered business websites and online services.",
-          "Collaborated with a team to enhance the growth of clients' businesses and traffic."
-        ]
-      },
-      {
-        "organization": "Infinite Loops",
-        "title": "Club Vice President",
-        "start_date": "May 2022",
-        "end_date": " April 2023",
-        "description": [
-          "Supported the president in all aspects of club leadership, including meeting planning and execution, task delegation, and activity organization.",
-          "Managed meeting presentations and oversaw the work of other officers and club members.",
-          "Oversaw the organization's app development team where we created a Dart application to display top student favorite locations."
+          "Maintained and updated numerous partner websites and online services, ensuring peak performance and relevance with proficiency in HTML, CSS, and JavaScript.",
+          "Integrated custom API scripts, optimized websites to fulfill unique client requirements and enhance user experience.",
+          "Utilized my proficiency in WordPress, crafting visually stunning and highly functional platforms tailored to precise client specifications, ensuring optimal user engagement.",
+          "Drove tangible business growth and significantly boosted client visibility and traffic by orchestrating cross-functional teamwork, applying my technical skills and strategic insights."
         ]
       }
     ]
@@ -274,6 +262,28 @@
       },
       {
         "use_git_api": true,
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Prize-Pick-Predictions",
+        "project_name": "STMU Yelp",
+        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
+        "resources_used": [
+          "JavaScript",
+          "Flask",
+          "CSS",
+          "Prize Picks API",
+          "HTML"
+        ],
+        "start_date": "Sept 2022",
+        "end_date": "May 2023",
+        "links": [
+          {
+            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predictions",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      },
+      {
+        "use_git_api": true,
         "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Reactfolio",
         "project_name": "Reactfolio V2",
         "description": "An e-portfolio built with React.js that utilizes GitHub API. Designed for public use and easy configuration. The second iteration of my website.",
@@ -290,22 +300,6 @@
         "links": [
           {
             "href": "https://github.com/KevinTrinh1227/Reactfolio",
-            "icon": "FaGithub",
-            "data_tooltip": "Visit GitHub Repo"
-          }
-        ]
-      },
-      {
-        "use_git_api": false,
-        "api_github_repo_link": "",
-        "project_name": "STMU Yelp",
-        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
-        "resources_used": ["Dart/Flutter", "Andriod Studio"],
-        "start_date": "Sept 2022",
-        "end_date": "May 2023",
-        "links": [
-          {
-            "href": "https://github.com/sonono-no/Stmu-Yelp",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
