@@ -103,7 +103,7 @@ const RepoStats = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Repository Name: {repoData.name}
+            Repo Name: {repoData.name}
           </a>{" "}
           •{" "}
           <a

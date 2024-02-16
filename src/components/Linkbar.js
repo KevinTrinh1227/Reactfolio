@@ -1,6 +1,6 @@
 import React from "react";
 import contentData from "../content.json";
-import { FaGithub, FaLinkedin, FaHandshake } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Fade } from "react-awesome-reveal";
 
@@ -15,7 +15,7 @@ import { Fade } from "react-awesome-reveal";
     "navbar_social_links": {
       "github": "https://github.com/KevinTrinh1227",
       "handshake": "https://app.joinhandshake.com/stu/users/32148581",
-      "linkedin": "https://www.linkedin.com/in/trinhkevin1227",
+      "linkedin": "https://www.linkedin.com/in/kevintrinh1227",
       "email": "kevintrinh1227@gmail.com"
     }
 
@@ -36,14 +36,14 @@ const Linkbar = () => {
       rel: "noreferrer",
     },
     {
-      icon: FaHandshake,
-      href: general.navbar_social_links.handshake,
+      icon: FaLinkedin,
+      href: general.navbar_social_links.linkedin,
       target: "_blank",
       rel: "noreferrer",
     },
     {
-      icon: FaLinkedin,
-      href: general.navbar_social_links.linkedin,
+      icon: FaFileAlt,
+      href: general.navbar_social_links.handshake,
       target: "_blank",
       rel: "noreferrer",
     },
