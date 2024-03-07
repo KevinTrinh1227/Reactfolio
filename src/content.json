@@ -236,6 +236,36 @@
     "project_items": [
       {
         "use_git_api": true,
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Prize-Pick-Predictions",
+        "project_name": "STMU Yelp",
+        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
+        "resources_used": [
+          "JavaScript",
+          "Python",
+          "Flask",
+          "React.js",
+          "CSS",
+          "MongoDB",
+          "HTML",
+          "Rest API"
+        ],
+        "start_date": "Sept 2022",
+        "end_date": "May 2023",
+        "links": [
+          {
+            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predictions",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predictions/archive/main.zip",
+            "icon": "FaDownload",
+            "data_tooltip": "Download Project"
+          }
+        ]
+      },
+      {
+        "use_git_api": true,
         "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Client",
         "project_name": "Hycord Client",
         "description": "Discord.py client that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Simply, a versatile Hypixel Discord bot.",
@@ -257,31 +287,6 @@
             "href": "https://github.com/KevinTrinh1227/Hycord-Client/archive/main.zip",
             "icon": "FaDownload",
             "data_tooltip": "Download Project"
-          }
-        ]
-      },
-      {
-        "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Prize-Pick-Predictions",
-        "project_name": "STMU Yelp",
-        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
-        "resources_used": [
-          "JavaScript",
-          "Python",
-          "Flask",
-          "React.js",
-          "CSS",
-          "MongoDB",
-          "HTML",
-          "Rest API"
-        ],
-        "start_date": "Sept 2022",
-        "end_date": "May 2023",
-        "links": [
-          {
-            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predictions",
-            "icon": "FaGithub",
-            "data_tooltip": "Visit GitHub Repo"
           }
         ]
       },
