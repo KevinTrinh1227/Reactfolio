@@ -267,10 +267,13 @@
         "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
         "resources_used": [
           "JavaScript",
+          "Python",
           "Flask",
+          "React.js",
           "CSS",
-          "Prize Picks API",
-          "HTML"
+          "MongoDB",
+          "HTML",
+          "Rest API"
         ],
         "start_date": "Sept 2022",
         "end_date": "May 2023",
