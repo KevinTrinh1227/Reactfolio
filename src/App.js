@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
 import SideProjects from "./components/SideProjects";
 import Footer from "./components/Footer";
+import ResumePage from "./components/Resume";
 import Error404 from "./components/Error404";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -40,6 +41,7 @@ function App() {
             </div>
           }
         ></Route>
+        <Route path="/resume" element={<ResumePage />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </Router>
