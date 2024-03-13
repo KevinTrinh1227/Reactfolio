@@ -1,36 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-const ResumePage = () => {
-  // Function to resize the iframe based on its content
-  const resizeIframe = () => {
-    const iframe = document.getElementById("resumeFrame");
-    iframe.style.height = `${iframe.contentWindow.document.documentElement.scrollHeight}px`;
-  };
+const Portfolio = () => {
+  useEffect(() => {
+    // Define a function to resize the embedded PDF
+    const resizeEmbed = () => {
+      // Retrieve the embedded PDF element by its ID
+      const embed = document.getElementById("pdfEmbed");
+      if (embed) {
+        // Get the height of the window
+        const windowHeight = window.innerHeight;
+        // Set the height of the embedded PDF to match the window height
+        embed.style.height = `${windowHeight}px`;
+      }
+    };
 
-  // Add event listener to resize iframe when content changes
-  React.useEffect(() => {
-    resizeIframe();
-    window.addEventListener("resize", resizeIframe); // Optional: Add listener for window resize
-    return () => window.removeEventListener("resize", resizeIframe); // Optional: Remove listener on component unmount
+    resizeEmbed();
+    window.addEventListener("resize", resizeEmbed);
+    return () => window.removeEventListener("resize", resizeEmbed);
   }, []);
 
   return (
     <div style={{ height: "100vh", overflow: "hidden" }}>
-      {/* Set the parent div height to fit the viewport */}
-      <iframe
-        id="resumeFrame"
-        title="Resume PDF"
+      <embed
+        id="pdfEmbed"
         src="../assets/Resume.pdf"
+        type="application/pdf"
         width="100%"
-        style={{
-          position: "relative",
-          height: "100%",
-          width: "100%",
-          overflow: "auto",
-        }} // Set iframe height to 100% of parent height
+        height="100%"
+        style={{ border: "none" }}
       />
     </div>
   );
 };
 
-export default ResumePage;
+export default Portfolio;

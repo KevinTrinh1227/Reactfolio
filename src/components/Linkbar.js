@@ -43,8 +43,8 @@ const Linkbar = () => {
     },
     {
       icon: FaFileAlt,
-      href: "/resume", // Link to the route or page where resume will be displayed
-      target: "_blank", // Open in a new page
+      href: general.navbar_social_links.resume, // will open to "/resume"
+      target: "_blank",
       rel: "noreferrer",
     },
     {
