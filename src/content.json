@@ -24,8 +24,8 @@
     "main_header": "Hello, Kevin here.",
     "main_subtitle": "I like to build stuff occasionally.",
     "intro_bio": [
-      "I'm currently a Sophomore attending St. Mary's University,",
-      "Majoring in Computer Science with minor in Mathematics.",
+      "I'm currently a Freshman at the University of Houston,",
+      "pursuing a Bachelor of Science in Computer Science.",
       "I have a profound interest in machine learning, operating",
       "systems, full-stack development, and everything in between."
     ],
@@ -40,8 +40,8 @@
     },
     "headShotUrl": "../assets/portrait.png",
     "bio": [
-      "I am currently studying computer science at St. Mary's University with a focus in computer science with a minor in mathematics. Recently, I was an undergrad research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
-      "I have a profound interest in numerous types of software development such as machine learning, operating systems, and especially in full-stack development. I'm a huge desk setup and PC enthusiast. In my free time, I enjoy playing/analyzing chess games, online window shopping, thrifting, and playing Minecraft multiplayer servers."
+      "I am currently studying computer science at University of Houston with a focus in computer science with a minor in mathematics. Recently, I was an undergrad research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
+      "I have a profound interest in numerous types of software development such as machine learning, operating systems, and especially in full-stack development. I'm a huge desk setup and PC enthusiast. In my free time, I enjoy playing/analyzing chess games, thrifting, and playing videogames. "
     ],
     "skills_caption": "Some technologies I've worked with:",
     "skills": [
@@ -55,7 +55,7 @@
   },
   "academics": {
     "section": {
-      "enable_section": true,
+      "enable_section": false,
       "title": "~/Education",
       "navbar_name": "/Academics",
       "description": "Courses that I have completed or am on track to complete. Current GPA: 3.24"
