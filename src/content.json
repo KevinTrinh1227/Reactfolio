@@ -40,17 +40,17 @@
     },
     "headShotUrl": "../assets/portrait.png",
     "bio": [
-      "I am currently studying computer science at University of Houston with a focus in computer science with a minor in mathematics. Recently, I was an undergrad research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
-      "I have a profound interest in numerous types of software development such as machine learning, operating systems, and especially in full-stack development. I'm a huge desk setup and PC enthusiast. In my free time, I enjoy playing/analyzing chess games, thrifting, and playing videogames. "
+      "I am currently studying at the University of Houston, pursuing a Bachelor of Science in Computer Science. Recently, I served as an undergraduate research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals include building experience and acquiring meaningful connections for personal development.",
+      "I have a profound interest in various types of software development, including machine learning, operating systems, and especially full-stack development. I'm a huge enthusiast of desk setups and PCs. In my free time, I enjoy playing and analyzing chess games, thrifting, playing video games, strumming my guitar, and trying local foods."
     ],
     "skills_caption": "Some technologies I've worked with:",
     "skills": [
       "JavaScript ES6+",
-      "React.js",
-      "Node.js",
+      "React.js & Node.js",
+      "Python 3.x",
       "HTML & CSS",
-      "Python 3",
-      "Linux OS & Git"
+      "MongoDB & MySQL",
+      "Linux & Windows OS"
     ]
   },
   "academics": {
@@ -198,7 +198,7 @@
       "enable_section": true,
       "title": "~/Experience",
       "navbar_name": "/Experience",
-      "description": "Positions, team projects, or organizations I am/have been a part of."
+      "description": "My current/past relevant experience. Click [here](/resume) to view my resume."
     },
     "experience_items": [
       {
