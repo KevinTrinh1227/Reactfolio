@@ -3,6 +3,7 @@ import contentData from "../content.json";
 import { FaGithub, FaDownload, FaFilePdf } from "react-icons/fa";
 import { FiExternalLink, FiFolder } from "react-icons/fi";
 import { Fade } from "react-awesome-reveal";
+import ReactMarkdown from "react-markdown";
 
 /* ==========================================
 *   JSON Template Example
@@ -152,7 +153,9 @@ const SideProjects = () => {
                   <div className="line-mf"></div>
                 </h3>
                 <p className="subtitle-a">
-                  {contentData.projects.section.description}
+                  <ReactMarkdown>
+                    {contentData.projects.section.description}
+                  </ReactMarkdown>
                 </p>
               </div>
             </Fade>
