@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import contentData from "../content.json";
+import { Fade } from "react-awesome-reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCodeFork, faStar } from "@fortawesome/free-solid-svg-icons";
 
@@ -44,39 +45,41 @@ const Footer = () => {
   }, [repoApiLink]);
 
   return (
-    <footer>
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-12">
-            <div className="copyright-box">
-              <p className="copyright">
-                {contentData.footer.line_one}{" "}
-                <a href="https://github.com/KevinTrinh1227">
-                  <strong>
-                    {general.first_name} {general.middle_name}{" "}
-                    {general.last_name}
-                  </strong>
-                </a>
-                .
-              </p>
-              <div className="credits">
-                {contentData.footer.copyright_line} &copy;
-              </div>
-              <div className="fork-stars">
-                <a href={repoLink}>
-                  <span>
-                    {repoData && repoData.forks_count}{" "}
-                    <FontAwesomeIcon icon={faCodeFork} style={iconStyle} />
-                    {repoData && repoData.stargazers_count}{" "}
-                    <FontAwesomeIcon icon={faStar} style={iconStyle} />
-                  </span>
-                </a>
+    <Fade triggerOnce={true} direction="up">
+      <footer>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="copyright-box">
+                <p className="copyright">
+                  {contentData.footer.line_one}{" "}
+                  <a href="https://github.com/KevinTrinh1227">
+                    <strong>
+                      {general.first_name} {general.middle_name}{" "}
+                      {general.last_name}
+                    </strong>
+                  </a>
+                  .
+                </p>
+                <div className="credits">
+                  {contentData.footer.copyright_line} &copy;
+                </div>
+                <div className="fork-stars">
+                  <a href={repoLink}>
+                    <span>
+                      {repoData && repoData.forks_count}{" "}
+                      <FontAwesomeIcon icon={faCodeFork} style={iconStyle} />
+                      {repoData && repoData.stargazers_count}{" "}
+                      <FontAwesomeIcon icon={faStar} style={iconStyle} />
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </Fade>
   );
 };
 

@@ -198,7 +198,7 @@
       "enable_section": true,
       "title": "~/Experience",
       "navbar_name": "/Experience",
-      "description": "My current/past relevant experience. Click [here](/resume) to view my resume."
+      "description": "My current/past relevant experience. Click [here](https://kevintrinh.dev/resume) to view my resume."
     },
     "experience_items": [
       {

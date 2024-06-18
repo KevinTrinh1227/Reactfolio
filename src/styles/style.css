@@ -136,7 +136,7 @@ a {
   padding-top: 2rem;
 }
 
-.subtitle-a p {
+.subtitle-a {
   margin-top: 0;
   text-decoration: none;
   text-align: left;
@@ -145,19 +145,6 @@ a {
   font-weight: 500;
   font-family: var(--font-sans);
   font-size: 1.2rem;
-}
-
-.subtitle-a a {
-  color: var(--light-lime);
-  text-decoration: none;
-  font-weight: 500;
-  font-family: var(--font-sans);
-  font-size: 1.2rem;
-}
-
-.subtitle-a a:hover {
-  color: var(--white);
-  transition: color 0.5s ease-in-out;
 }
 
 .line-mf {
@@ -669,8 +656,6 @@ a {
   display: flex;
   justify-content: space-between; /* push the author to the left and post-date to the right */
   align-items: center; /* Vertically center the content */
-  position: relative; /* Can also be absolute, fixed, or sticky depending on your layout */
-  z-index: -1;
 }
 
 .post-author {

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import contentData from "../content.json";
 import { Fade } from "react-awesome-reveal";
-import ReactMarkdown from "react-markdown";
 
 /* ==========================================
 *   JSON Template Example
@@ -69,11 +68,7 @@ const WorkExperience = () => {
                   {experience.section.title}
                   <div className="line-mf"></div>
                 </h3>
-                <p className="subtitle-a">
-                  <ReactMarkdown>
-                    {experience.section.description}
-                  </ReactMarkdown>
-                </p>
+                <p className="subtitle-a">{experience.section.description}</p>
               </div>
             </div>
           </div>
