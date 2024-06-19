@@ -921,7 +921,7 @@ li {
   width: 50%;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 770px) {
   .wrapper {
     flex-direction: column;
   }
