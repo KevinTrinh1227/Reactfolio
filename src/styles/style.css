@@ -921,6 +921,15 @@ li {
   width: 50%;
 }
 
+@media screen and (max-width: 576px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .indicator {
+    border-right: auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # navlist AND link bar AND Repo Stats Section
 --------------------------------------------------------------*/
