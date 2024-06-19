@@ -33,7 +33,7 @@
 
 ## 🌐 What is Reactfolio?
 
-Reactfolio is a modern, revamped responsive portfolio website built using ReactJS, featuring a fresh UI, and designed specifically for STEM and computer science students, as well as aspiring software engineers and students. This project combines enhanced functionality, significant UI improvements, GitHub API integration, and comprehensive bug fixes to deliver a superior user experience. Fully open-source, Reactfolio encourages community contributions and collaboration. Its intuitive design ensures easy customization, making it convenient for users to personalize their portfolios seamlessly. With Reactfolio, you can showcase your skills, projects, and academic experiences in a streamlined, visually appealing manner.
+Reactfolio is a modern, revamped, and responsive portfolio website built using ReactJS, featuring a fresh UI, and designed specifically for STEM and computer science students, as well as aspiring software engineers and students. This project combines enhanced functionality, significant UI improvements, GitHub API integration, and comprehensive bug fixes to deliver a superior user experience. Fully open-source, Reactfolio encourages community contributions and collaboration. Its intuitive design ensures easy customization, making it convenient for users to personalize their portfolios seamlessly. With Reactfolio, you can showcase your skills, projects, and academic experiences in a streamlined, visually appealing manner.
 
 ## 📌 Important Information
 
