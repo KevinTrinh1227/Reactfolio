@@ -236,29 +236,20 @@
     "project_items": [
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Prize-Pick-Predictions",
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Github-Followers-Bot",
         "project_name": "STMU Yelp",
         "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
-        "resources_used": [
-          "JavaScript",
-          "Python",
-          "Flask",
-          "React.js",
-          "CSS",
-          "MongoDB",
-          "HTML",
-          "Rest API"
-        ],
-        "start_date": "Sept 2022",
-        "end_date": "May 2023",
+        "resources_used": ["JavaScript", "Node.js", "GitHub API"],
+        "start_date": "June 2024",
+        "end_date": "July 2024",
         "links": [
           {
-            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predictions",
+            "href": "https://github.com/KevinTrinh1227/Github-Followers-Bot",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           },
           {
-            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predictions/archive/main.zip",
+            "href": "https://github.com/KevinTrinh1227/Github-Followers-Bot/archive/main.zip",
             "icon": "FaDownload",
             "data_tooltip": "Download Project"
           }
