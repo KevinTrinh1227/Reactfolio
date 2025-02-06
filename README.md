@@ -43,7 +43,7 @@ This project is a revamped version of my [Portfolio-V1](https://kevintrinh-v1.ne
 
 For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything seamlessly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
 
-## 🛠 Installation & setup
+## 🛠 Installation & setup - [Click here for tutorial video](https://youtu.be/CxXi6HXS5Os?si=ctYsLMjpYPKekVmu)
 
 1. Clone repository OR download the [latest release](https://github.com/KevinTrinh1227/Reactfolio/releases)
 
