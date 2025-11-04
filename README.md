@@ -1,27 +1,50 @@
-<p align="center">
-  <a href="https://www.kevintrinh.dev" target="_blank">
-    <img alt="Fav Icon Png" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/readme-icon.png" width="100"/>
+  <p align="center">
+    <a href="https://www.kevintrinh.dev" target="_blank">
+      <img alt="Fav Icon Png" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/readme-icon.png" width="100"/>
+    </a>
+  </p>
+
+  <h1 align="center">
+    www.kevintrinh.dev – v2
+  </h1>
+
+  <p align="center">
+    <strong>A production-ready portfolio template for developers and STEM students to present projects, experience, and skills in a single, polished page.</strong> Built with <strong>React.js</strong>, fully responsive, and easy to customize through JSON-based content.
+  </p>
+
+
+
+  <div align="center">
+          <img
+        src="https://img.shields.io/badge/VIEW%20DEMO-Live%20Site-0b182c?style=for-the-badge"
+        alt="View Demo"
+      />
+    <!-- Maintenance Status (updates as needed) -->
+    <img
+      src="https://img.shields.io/badge/Maintenance-Updates%20as%20needed-blue?style=for-the-badge"
+      alt="Maintenance status"
+    />
+    <!-- Last Updated -->
+    <img
+      src="https://img.shields.io/github/last-commit/KevinTrinh1227/Reactfolio?color=yellow&label=Last%20Updated&style=for-the-badge"
+      alt="Last Updated badge"
+    />
+        <!-- Netlify Deploy Status -->
+    <img
+      src="https://img.shields.io/netlify/bda950e2-c382-4756-8f7c-129785602a59?label=Netlify&style=for-the-badge"
+      alt="Netlify deploy status"
+    />
+  </div>
+
+  <br/>
+
+  <a href="https://kevintrinh.dev" target="_blank">
+    <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/assets/48145892/d5a342d5-3e49-45d1-9028-cabc663ef61a">
   </a>
-</p>
-<h1 align="center">
-  www.kevintrinh.dev - v2
-</h1>
-<p align="center">
-  A modern solution for professionally showcasing skills, projects, and experience. Built with React.js.
-</p>
 
-<div align="center">
-  <img src="https://api.netlify.com/api/v1/badges/bda950e2-c382-4756-8f7c-129785602a59/deploy-status" alt="Website status" /> 
-  <img src="https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg" alt="Maintained status" />
-  <img src="https://img.shields.io/github/v/release/KevinTrinh1227/Reactfolio.svg" alt="Release badge" />
-</div>
-
-<a href="https://kevintrinh.dev" target="_blank">
-   <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/assets/48145892/d5a342d5-3e49-45d1-9028-cabc663ef61a">
-</a>
-
-<details>
-  <summary align="center">VIEW MORE PHOTOS HERE</summary>
+  <details>
+    <summary align="center"><strong>▶ VIEW MORE PHOTOS HERE</strong></summary>
+    <br/>
     <a href="https://www.kevintrinh.dev" target="_blank">
       <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_1.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_2.png">
@@ -29,80 +52,137 @@
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_4.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_5.png">
     </a>
-</details>
+  </details>
 
-## 🌐 What is Reactfolio?
+  ---
 
-Reactfolio is a modern, revamped, and responsive portfolio website built using ReactJS, featuring a fresh UI, and designed specifically for STEM and computer science students, as well as aspiring software engineers and students. This project combines enhanced functionality, significant UI improvements, GitHub API integration, and comprehensive bug fixes to deliver a superior user experience. Fully open-source, Reactfolio encourages community contributions and collaboration. Its intuitive design ensures easy customization, making it convenient for users to personalize their portfolios seamlessly. With Reactfolio, you can showcase your skills, projects, and academic experiences in a streamlined, visually appealing manner.
+  ## 🌐 What is Reactfolio?
 
-## 📌 Important Information
+  **Reactfolio** is a modern, revamped, and fully responsive portfolio website built using **ReactJS**.  
+  It is designed for **STEM and computer science students**, **aspiring software engineers**, and anyone who wants/needs a clean, professional portfolio:
 
-This project recycles components from my old [Portfolio-V1](https://github.com/KevinTrinh1227/Trinh), while also adopting a new UI and theme inspired by this [DEMO](https://steam-portfolio-demo.vercel.app/). Project native version: Node v16.20.2, built on Linux OS (Ubuntu 22.04 LTS).
+  - Skills and technical stack  
+  - Projects and GitHub work  
+  - Academic experience and achievements
+  - Past Internships
 
-This project is a revamped version of my [Portfolio-V1](https://kevintrinh-v1.netlify.app). It comes with numerous updates including functionality, API integration, Significant UI changes, bug fixes, and much more! This project is fully open source and I encourage anyone interested, to contribute to the project as well. This iteration continues the simplistic approach to the same "one page one scroll" design philosophy as V1.
+  This project combines:
 
-For easy use, I linked every element that makes up the app to `content.json` to eliminate having to open each component file to change content data, so you can edit everything seamlessly from one file. Refer to the corresponding JS file for more information on how to manipulate a specific section within the JSON.
+  - Enhanced functionality  
+  - Significant UI improvements  
+  - GitHub API integration  
+  - Comprehensive bug fixes  
 
-## 🛠 Installation & setup - [Click here for tutorial video](https://youtu.be/CxXi6HXS5Os?si=ctYsLMjpYPKekVmu)
+  to deliver a streamlined, visually appealing user experience.
 
-1. Clone repository OR download the [latest release](https://github.com/KevinTrinh1227/Reactfolio/releases)
+  Reactfolio is **fully open-source** and encourages community contributions. Its **intuitive, content-driven design** makes it easy to customize and adapt to your personal brand.
 
-   ```sh
-   git clone https://github.com/KevinTrinh1227/Reactfolio
-   ```
+  ---
 
-   ```sh
-   cd Reactfolio
-   ```
+  ## ✨ Key Features
 
-2. OPTIONAL: Use the correct Node version using [NVM](https://github.com/nvm-sh/nvm) (Node v16.20.2)
+  - Built with React.js using a modern, component-based architecture  
+  - Fully responsive layout for desktop, tablet, and mobile  
+  - One-page / one-scroll design for a focused user experience  
+  - Centralized configuration via `content.json` for easy customization  
+  - GitHub integration to highlight your work  
+  - Improved V2 UI, stability, and overall developer experience  
 
-   ```sh
-   nvm install 16
-   ```
+  ---
 
-   ```sh
-   nvm alias default 16
-   ```
+  ## 📌 Important Information
 
-3. Install the dependencies using npm or yarn
+  - This project **reuses components** from my previous portfolio:  
+    **[Portfolio-V1](https://github.com/KevinTrinh1227/Trinh)**  
+    while adopting a new UI and theme inspired by this **[DEMO](https://steam-portfolio-demo.vercel.app/)**.
 
-   ```sh
-   npm install
-   ```
+  - **Native Node version:** **`v16.20.2`**  
+    **Environment:** built on **Linux (Ubuntu 22.04 LTS)**.
 
-   ```sh
-   yarn install
-   ```
+  - This is a **revamped version** of my original portfolio:  
+    **[Portfolio-V1 Live](https://kevintrinh-v1.netlify.app)**
 
-4. Start the development server using npm or yarn
+  - Key improvements include:
+    - Updated functionality  
+    - API integration  
+    - Significant UI changes  
+    - Numerous bug fixes  
+    - A more polished user and developer experience  
 
-   ```sh
-   npm start
-   ```
+  - The project continues the **“one page, one scroll” design philosophy** from V1 with a more modern and refined look.
 
-   ```sh
-   yarn run start
-   ```
+  - For **easy customization**, nearly every visible element is wired to **`content.json`**, so you do not need to open each component file to change text or data.  
+    You can edit almost everything from that single JSON file.
 
-## 🚀 Build and run for production
+    Refer to the corresponding JS files for details on how to manipulate specific sections within the JSON.
 
-1. Generate a complete static production build
+  ---
 
-   ```sh
-   npm run build
-   ```
+  ## 🛠 Installation & Setup – [Tutorial Video](https://youtu.be/CxXi6HXS5Os?si=ctYsLMjpYPKekVmu)
 
-## 🎨 CSS hex color palette
+  1. **Clone the repository or download the [latest release](https://github.com/KevinTrinh1227/Reactfolio/releases)**
 
-| Color         | Hex Code                                                             | Usage Info                              | CSS Usage              |
-| ------------- | -------------------------------------------------------------------- | --------------------------------------- | ---------------------- |
-| Dark Navy     | ![[#0b182c]](https://singlecolorimage.com/get/0b182c/15x15) `#0b182c` | Main background color                   | `var(--dark-navy)`     |
-| Navy          | ![[#12223d]](https://singlecolorimage.com/get/12223d/15x15) `#12223d` | Secondary background color              | `var(--navy)`          |
-| Light Navy    | ![[#233450]](https://singlecolorimage.com/get/233450/15x15) `#233450` | Data tool tip color & text highlighting | `var(--light-navy)`    |
-| Light Lime    | ![[#64ff93]](https://singlecolorimage.com/get/64ff93/15x15) `#64ff93` | Main accent color                       | `var(--light-lime)`    |
-| White         | ![[#e9f1fc]](https://singlecolorimage.com/get/e9f1fc/15x15) `#e9f1fc` | Main text color                         | `var(--white)`         |
-| Bone White    | ![[#d4ddf8]](https://singlecolorimage.com/get/d4ddf8/15x15) `#d4ddf8` | Secondary text color                    | `var(--bone-white)`    |
-| Smoke         | ![[#8992ac]](https://singlecolorimage.com/get/8992ac/15x15) `#8992ac` | Tertiary text color                     | `var(--smoke)`         |
-| Light Smoke   | ![[#acb5cf]](https://singlecolorimage.com/get/acb5cf/15x15) `#acb5cf` | Section subtitles text                  | `var(--light-smoke)`   |
-| Lighter Smoke | ![[#d0d8f3]](https://singlecolorimage.com/get/d0d8f3/15x15) `#d0d8f3` | Section Title text                      | `var(--lighter-smoke)` |
+     ```sh
+     git clone https://github.com/KevinTrinh1227/Reactfolio
+     ```
+
+     ```sh
+     cd Reactfolio
+     ```
+
+  2. **(Optional) Use the recommended Node version via [NVM](https://github.com/nvm-sh/nvm)**  
+     Recommended: **Node v16.20.2**
+
+     ```sh
+     nvm install 16
+     ```
+
+     ```sh
+     nvm alias default 16
+     ```
+
+  3. **Install dependencies** using npm or yarn:
+
+     ```sh
+     npm install
+     ```
+
+     ```sh
+     yarn install
+     ```
+
+  4. **Start the development server**:
+
+     ```sh
+     npm start
+     ```
+
+     ```sh
+     yarn run start
+     ```
+
+  ---
+
+  ## 🚀 Build and Run for Production
+
+  1. **Generate a static production build**
+
+     ```sh
+     npm run build
+     ```
+
+  ---
+
+  ## 🎨 CSS Hex Color Palette
+
+  | Color             | Hex Code                                                              | Usage Info                              | CSS Usage            |
+  | ----------------- | --------------------------------------------------------------------- | --------------------------------------- | -------------------- |
+  | **Dark Navy**     | ![#0b182c](https://singlecolorimage.com/get/0b182c/15x15) `#0b182c`   | Main background color                   | `var(--dark-navy)`   |
+  | **Navy**          | ![#12223d](https://singlecolorimage.com/get/12223d/15x15) `#12223d`   | Secondary background color              | `var(--navy)`        |
+  | **Light Navy**    | ![#233450](https://singlecolorimage.com/get/233450/15x15) `#233450`   | Data tooltip color & text highlighting  | `var(--light-navy)`  |
+  | **Light Lime**    | ![#64ff93](https://singlecolorimage.com/get/64ff93/15x15) `#64ff93`   | Main accent color                       | `var(--light-lime)`  |
+  | **White**         | ![#e9f1fc](https://singlecolorimage.com/get/e9f1fc/15x15) `#e9f1fc`   | Main text color                         | `var(--white)`       |
+  | **Bone White**    | ![#d4ddf8](https://singlecolorimage.com/get/d4ddf8/15x15) `#d4ddf8`   | Secondary text color                    | `var(--bone-white)`  |
+  | **Smoke**         | ![#8992ac](https://singlecolorimage.com/get/8992ac/15x15) `#8992ac`   | Tertiary text color                     | `var(--smoke)`       |
+  | **Light Smoke**   | ![#acb5cf](https://singlecolorimage.com/get/acb5cf/15x15) `#acb5cf`   | Section subtitles text                  | `var(--light-smoke)` |
+  | **Lighter Smoke** | ![#d0d8f3](https://singlecolorimage.com/get/d0d8f3/15x15) `#d0d8f3`   | Section title text                      | `var(--lighter-smoke)` |
