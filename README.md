@@ -1,3 +1,40 @@
+<!-- devfoliox-project
+{
+  "title": "Reactfolio",
+  "summary": "A React.js front-end portfolio template designed for developers who want a clean and flexible personal site.",
+  "description": [
+    "Reactfolio is a customizable portfolio template built with React and modern tooling, focused on a smooth UX and clean, responsive layout.",
+    "It’s structured for easy editing, so students and developers can quickly plug in their own projects, experience, and contact info."
+  ],
+  "technologies": ["React", "JavaScript", "CSS"],
+  "start": "Sep 2023",
+  "end": "Dec 2023",
+
+  "stats_stars": true,
+  "stats_forks": true,
+  "stats_downloads": false,
+
+  "links": [
+    {
+      "label": "Live Demo",
+      "href": "https://your-reactfolio-demo-url.com",
+      "type": "live"
+    },
+    {
+      "label": "Source",
+      "href": "https://github.com/KevinTrinh1227/Reactfolio",
+      "type": "github"
+    },
+    {
+      "label": "Docs",
+      "href": "https://github.com/KevinTrinh1227/Reactfolio",
+      "type": "docs"
+    }
+  ]
+}
+-->
+
+  
   <p align="center">
     <a href="https://www.kevintrinh.dev" target="_blank">
       <img alt="Fav Icon Png" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/readme-icon.png" width="100"/>
