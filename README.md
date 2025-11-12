@@ -1,4 +1,4 @@
-<!-- devfoliox-project
+<!-- devfoliox
 {
   "title": "Reactfolio",
   "summary": "A React.js front-end portfolio template designed for developers who want a clean and flexible personal site.",
