@@ -53,6 +53,12 @@
     <strong>A production-ready portfolio template for developers and STEM students to present projects, experience, and skills in a single, polished page.</strong> Built with <strong>React.js</strong>, fully responsive, and easy to customize through JSON-based content.
   </p>
 
+<div align="center">
+  <strong>📌 New Portfolio Template: <a href="https://github.com/KevinTrinh1227/DevfolioX">DevfolioX</a></strong><br/>
+  DevfolioX is the <strong>new</strong> updated version of Reactfolio, which features a similar design with way more features, fixes, and updates. I highly recommend you use DevFolioX instead of this portfolio template! View the <a href="https://devfoliox.vercel.app" target="_blank">DevfolioX Live Site</a>.
+</div>
+<br/>
+
 
 
   <div align="center">
