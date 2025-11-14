@@ -22,7 +22,7 @@
   "stats_downloads": false,
   "links": [
     {
-      "label": "Live Demo",
+      "label": "Demo",
       "href": "https://your-reactfolio-demo-url.com",
       "type": "live"
     },
@@ -32,7 +32,7 @@
       "type": "github"
     },
     {
-      "label": "Download ZIP",
+      "label": "Download",
       "href": "https://github.com/KevinTrinh1227/Reactfolio/archive/refs/heads/main.zip",
       "type": "download"
     }
