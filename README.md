@@ -7,13 +7,19 @@
     "It’s structured for easy editing, so students and developers can quickly plug in their own projects, experience, and contact info."
   ],
   "technologies": ["React", "JavaScript", "CSS"],
-  "start": "Sep 2023",
-  "end": "Dec 2023",
-
+  "badges": [
+    "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+    "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+    "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white",
+    "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+  ],
+  "start": "AUTO",
+  "end": "AUTO",
+  "auto_inactive_threshold_days": 90,
   "stats_stars": true,
   "stats_forks": true,
   "stats_downloads": false,
-
   "links": [
     {
       "label": "Live Demo",
@@ -26,9 +32,9 @@
       "type": "github"
     },
     {
-      "label": "Docs",
-      "href": "https://github.com/KevinTrinh1227/Reactfolio",
-      "type": "docs"
+      "label": "Download ZIP",
+      "href": "https://github.com/KevinTrinh1227/Reactfolio/archive/refs/heads/main.zip",
+      "type": "download"
     }
   ]
 }
