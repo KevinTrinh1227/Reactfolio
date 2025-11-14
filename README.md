@@ -36,9 +36,7 @@
 
   
   <p align="center">
-    <a href="https://www.kevintrinh.dev" target="_blank">
       <img alt="Fav Icon Png" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/readme-icon.png" width="100"/>
-    </a>
   </p>
 
   <h1 align="center">
@@ -52,10 +50,6 @@
 
 
   <div align="center">
-          <img
-        src="https://img.shields.io/badge/VIEW%20DEMO-Live%20Site-0b182c?style=for-the-badge"
-        alt="View Demo"
-      />
     <!-- Maintenance Status (updates as needed) -->
     <img
       src="https://img.shields.io/badge/Maintenance-Updates%20as%20needed-blue?style=for-the-badge"
@@ -80,15 +74,13 @@
   </a>
 
   <details>
-    <summary align="center"><strong>▶ VIEW MORE PHOTOS HERE</strong></summary>
+    <summary align="center"><strong>VIEW MORE PHOTOS HERE</strong></summary>
     <br/>
-    <a href="https://www.kevintrinh.dev" target="_blank">
       <img alt="Screen Shot from 10-03-2023 of landing page." src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_1.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_2.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_3.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_4.png">
       <img alt="Screen Shot" src="https://github.com/KevinTrinh1227/Reactfolio/blob/master/public/assets/screenshot_5.png">
-    </a>
   </details>
 
   ---
